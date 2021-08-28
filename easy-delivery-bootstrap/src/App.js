@@ -60,7 +60,7 @@ function App() {
             />
           </div>
           <div class="col-lg-5">
-            <h1 class="font-weight-light">Business Name or Tagline</h1>
+            <h1 class="font-weight-light">Easy Delivery</h1>
             <p>
               This is a template that is great for small businesses. It doesn't
               have too much fancy flare to it, but it makes a great use of the
@@ -75,10 +75,7 @@ function App() {
 
         <div class="card text-white bg-secondary my-5 py-4 text-center">
           <div class="card-body">
-            <p class="text-white m-0">
-              This call to action card is a great place to showcase some
-              important information or display a clever tagline!
-            </p>
+            <p class="text-white m-0">Tareas pendientes de completar</p>
           </div>
         </div>
 
@@ -86,7 +83,7 @@ function App() {
           <div class="col-md-4 mb-5">
             <div class="card h-100">
               <div class="card-body">
-                <h2 class="card-title">Card One</h2>
+                <h2 class="card-title">Tarea 1</h2>
                 <p class="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
                   magni quas ex numquam, maxime minus quam molestias corporis
@@ -103,7 +100,7 @@ function App() {
           <div class="col-md-4 mb-5">
             <div class="card h-100">
               <div class="card-body">
-                <h2 class="card-title">Card Two</h2>
+                <h2 class="card-title">Tarea 2</h2>
                 <p class="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
                   tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem
@@ -121,7 +118,7 @@ function App() {
           <div class="col-md-4 mb-5">
             <div class="card h-100">
               <div class="card-body">
-                <h2 class="card-title">Card Three</h2>
+                <h2 class="card-title">Tarea 3</h2>
                 <p class="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
                   magni quas ex numquam, maxime minus quam molestias corporis
@@ -140,7 +137,7 @@ function App() {
       <footer class="py-5 bg-dark">
         <div class="container px-4 px-lg-5">
           <p class="m-0 text-center text-white">
-            Copyright &copy; Your Website 2021
+            Copyright &copy; Easy Delivery 2021
           </p>
         </div>
       </footer>

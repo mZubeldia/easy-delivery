@@ -7,6 +7,7 @@ import Header from "./Header";
 import Home from "./Home";
 
 import { Route, Switch } from "react-router-dom";
+import CreateFarm from "./CreateFarm";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route path="/nueva-granja">
+          <CreateFarm />
         </Route>
       </Switch>
 

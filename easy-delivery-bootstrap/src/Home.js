@@ -28,10 +28,10 @@ const Home = () => {
       <section className="pending-section">
         <div className="card text-white bg-warning my-5 py-4 text-center">
           <div className="card-body">
-            <p className="text-white m-0">
+            <h3 className="text-white m-0">
               <i className="d-xl-none far fa-clock pending-icon "></i> Tareas
               pendientes
-            </p>
+            </h3>
           </div>
         </div>
 
@@ -94,7 +94,7 @@ const Home = () => {
       <section className="done-section">
         <div className="card text-white bg-success my-5 py-4 text-center">
           <div className="card-body">
-            <p className="text-white m-0">Tareas completadas</p>
+            <h3 className="text-white m-0">Tareas completadas</h3>
           </div>
         </div>
         <div className="row gx-4 gx-lg-5">

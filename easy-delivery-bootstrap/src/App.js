@@ -1,55 +1,10 @@
 import "./App.css";
+import Header from "./Header";
 
 function App() {
   return (
     <div classNameName="App">
-      <header classNameName="App-header">
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div className="container px-5">
-            <a className="navbar-brand" href="#!">
-              Easy Delivery
-            </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div
-              className="collapse navbar-collapse"
-              id="navbarSupportedContent"
-            >
-              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#!">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#!">
-                    Crear granja
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#!">
-                    Crear tarea
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#!">
-                    Historico
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
+      <Header />
 
       <main className="container px-4 px-lg-5">
         <section className="hero-section row gx-4 gx-lg-5 align-items-center my-5">
@@ -77,8 +32,10 @@ function App() {
         <section className="pending-section">
           <div className="card text-white bg-warning my-5 py-4 text-center">
             <div className="card-body">
-              <p className="text-white m-0"> Tareas pendientes de completar</p>
-              <i class="far fa-clock pending-icon"></i>
+              <p className="text-white m-0">
+                <i className="d-xl-none far fa-clock pending-icon "></i> Tareas
+                pendientes
+              </p>
             </div>
           </div>
 

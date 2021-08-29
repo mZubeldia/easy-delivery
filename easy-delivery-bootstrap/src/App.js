@@ -1,13 +1,23 @@
+//styles
 import "./App.css";
+
+//components
 import Footer from "./Footer";
 import Header from "./Header";
 import Home from "./Home";
+
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <>
       <Header />
-      <Home />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+      </Switch>
+
       <Footer />
     </>
   );

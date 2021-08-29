@@ -32,17 +32,17 @@ function App() {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#!">
-                    About
+                    Crear granja
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#!">
-                    Contact
+                    Crear tarea
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#!">
-                    Services
+                    Historico
                   </a>
                 </li>
               </ul>
@@ -75,7 +75,7 @@ function App() {
         </section>
 
         <section className="pending-section">
-          <div className="card text-white bg-warning  my-5 py-4 text-center">
+          <div className="card text-white bg-warning my-5 py-4 text-center">
             <div className="card-body">
               <p className="text-white m-0">Tareas pendientes de completar</p>
             </div>

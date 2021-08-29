@@ -1,3 +1,5 @@
+import ScrollButton from "./ScrollButton";
+
 const Home = () => {
   return (
     <main className="container px-4 px-lg-5">
@@ -148,6 +150,7 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <ScrollButton />
         </div>
       </section>
     </main>

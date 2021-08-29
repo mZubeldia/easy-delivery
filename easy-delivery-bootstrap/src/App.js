@@ -77,7 +77,8 @@ function App() {
         <section className="pending-section">
           <div className="card text-white bg-warning my-5 py-4 text-center">
             <div className="card-body">
-              <p className="text-white m-0">Tareas pendientes de completar</p>
+              <p className="text-white m-0"> Tareas pendientes de completar</p>
+              <i class="far fa-clock pending-icon"></i>
             </div>
           </div>
 

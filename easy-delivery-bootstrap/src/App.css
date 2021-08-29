@@ -11273,3 +11273,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+.pending-icon {
+  font-size: 2.2rem
+}

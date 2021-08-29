@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Footer";
 import Header from "./Header";
 
 function App() {
@@ -158,13 +159,7 @@ function App() {
         </section>
       </main>
 
-      <footer className="py-5 bg-dark">
-        <div className="container px-4 px-lg-5">
-          <p className="m-0 text-center text-white">
-            Copyright &copy; Easy Delivery 2021
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

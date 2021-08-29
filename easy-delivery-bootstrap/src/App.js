@@ -68,14 +68,14 @@ function App() {
               standard Bootstrap core components. Feel free to use this template
               for any project you want!
             </p>
-            <a className="btn btn-primary" href="#!">
+            <a className="btn btn-secondary" href="#!">
               Call to Action!
             </a>
           </div>
         </section>
 
         <section className="pending-section">
-          <div className="card text-white bg-secondary my-5 py-4 text-center">
+          <div className="card text-white bg-warning  my-5 py-4 text-center">
             <div className="card-body">
               <p className="text-white m-0">Tareas pendientes de completar</p>
             </div>
@@ -83,7 +83,7 @@ function App() {
 
           <div className="row gx-4 gx-lg-5">
             <div className="col-md-4 mb-5">
-              <div className="card h-100">
+              <div className="card h-100 border-warning">
                 <div className="card-body">
                   <h2 className="card-title">Tarea 1</h2>
                   <p className="card-text">
@@ -93,14 +93,14 @@ function App() {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <a className="btn btn-primary btn-sm" href="#!">
+                  <a className="btn btn-warning btn-sm" href="#!">
                     More Info
                   </a>
                 </div>
               </div>
             </div>
             <div className="col-md-4 mb-5">
-              <div className="card h-100">
+              <div className="card h-100 border-warning">
                 <div className="card-body">
                   <h2 className="card-title">Tarea 2</h2>
                   <p className="card-text">
@@ -111,14 +111,14 @@ function App() {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <a className="btn btn-primary btn-sm" href="#!">
+                  <a className="btn btn-warning btn-sm" href="#!">
                     More Info
                   </a>
                 </div>
               </div>
             </div>
             <div className="col-md-4 mb-5">
-              <div className="card h-100">
+              <div className="card h-100 border-warning">
                 <div className="card-body">
                   <h2 className="card-title">Tarea 3</h2>
                   <p className="card-text">
@@ -128,7 +128,7 @@ function App() {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <a className="btn btn-primary btn-sm" href="#!">
+                  <a className="btn btn-warning btn-sm" href="#!">
                     More Info
                   </a>
                 </div>
@@ -138,14 +138,14 @@ function App() {
         </section>
 
         <section className="done-section">
-          <div className="card text-white bg-secondary my-5 py-4 text-center">
+          <div className="card text-white bg-success my-5 py-4 text-center">
             <div className="card-body">
               <p className="text-white m-0">Tareas completadas</p>
             </div>
           </div>
           <div className="row gx-4 gx-lg-5">
             <div className="col-md-4 mb-5">
-              <div className="card h-100">
+              <div className="card h-100 border-success">
                 <div className="card-body">
                   <h2 className="card-title">Tarea A</h2>
                   <p className="card-text">
@@ -155,14 +155,14 @@ function App() {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <a className="btn btn-primary btn-sm" href="#!">
+                  <a className="btn btn-success btn-sm" href="#!">
                     More Info
                   </a>
                 </div>
               </div>
             </div>
             <div className="col-md-4 mb-5">
-              <div className="card h-100">
+              <div className="card h-100 border-success">
                 <div className="card-body">
                   <h2 className="card-title">Tarea B</h2>
                   <p className="card-text">
@@ -173,14 +173,14 @@ function App() {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <a className="btn btn-primary btn-sm" href="#!">
+                  <a className="btn btn-success btn-sm" href="#!">
                     More Info
                   </a>
                 </div>
               </div>
             </div>
             <div className="col-md-4 mb-5">
-              <div className="card h-100">
+              <div className="card h-100 border-success">
                 <div className="card-body">
                   <h2 className="card-title">Tarea C</h2>
                   <p className="card-text">
@@ -190,7 +190,7 @@ function App() {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <a className="btn btn-primary btn-sm" href="#!">
+                  <a className="btn btn-success btn-sm" href="#!">
                     More Info
                   </a>
                 </div>

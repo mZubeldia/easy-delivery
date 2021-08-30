@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <header classNameName="App-header">
@@ -25,9 +27,10 @@ const Header = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/nueva-granja">
+                <Link to="/nueva-granja" className="nav-link ">
+                  {" "}
                   Crear granja
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#!">

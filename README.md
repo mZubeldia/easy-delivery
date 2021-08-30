@@ -79,6 +79,9 @@
 
 ## About The Project
 
+Repo still in progress.
+Shortly we will provide with a full description, in the meantime this is the readme template from (https://github.com/othneildrew/Best-README-Template)
+
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Here's a blank template to get started:

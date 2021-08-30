@@ -94,7 +94,7 @@ const CreateTask = () => {
         </div>
         <div class="d-grid">
           <button
-            class="btn btn-primary btn-lg disabled"
+            class="btn btn-secondary btn-lg disabled"
             id="submitButton"
             type="submit"
           >

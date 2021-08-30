@@ -29,18 +29,18 @@ const Header = () => {
               <li className="nav-item">
                 <Link to="/nueva-granja" className="nav-link ">
                   {" "}
-                  Crear granja
+                  Granjas
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to="/nueva-tarea" className="nav-link ">
                   {" "}
-                  Crear tarea
+                  Tareas
                 </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#!">
-                  Historico
+                  Empleados
                 </a>
               </li>
             </ul>

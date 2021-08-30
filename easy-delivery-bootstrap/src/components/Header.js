@@ -33,9 +33,10 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#!">
+                <Link to="/nueva-tarea" className="nav-link ">
+                  {" "}
                   Crear tarea
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#!">

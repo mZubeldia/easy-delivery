@@ -2,12 +2,12 @@
 import "./App.css";
 
 //components
-import Footer from "./Footer";
-import Header from "./Header";
-import Home from "./Home";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Home from "./components/Home";
 
 import { Route, Switch } from "react-router-dom";
-import CreateFarm from "./CreateFarm";
+import CreateFarm from "./components/CreateFarm";
 
 function App() {
   return (

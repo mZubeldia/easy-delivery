@@ -27,13 +27,13 @@ const Header = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <Link to="/nueva-granja" className="nav-link ">
+                <Link to="/granjas" className="nav-link ">
                   {" "}
                   Granjas
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/nueva-tarea" className="nav-link ">
+                <Link to="/tareas" className="nav-link ">
                   {" "}
                   Tareas
                 </Link>

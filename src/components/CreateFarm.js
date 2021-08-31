@@ -1,4 +1,5 @@
 import FarmForm from "./FarmForm";
+import { Link } from "react-router-dom";
 
 const CreateFarm = () => {
   return (
@@ -64,11 +65,15 @@ const CreateFarm = () => {
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="col-md-4 mb-5">
-          <button type="button" class="btn btn-secondary">
+      <div className="row justify-content-center">
+        <div className="col-md-2 mb-3">
+          <Link
+            to="/nueva-granja"
+            type="button"
+            class="btn btn-secondary btn-center"
+          >
             <i class="fas fa-plus"></i>
-          </button>
+          </Link>
         </div>
       </div>
     </main>

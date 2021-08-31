@@ -13,7 +13,7 @@ const Farms = () => {
         <div className="col-md-4 mb-5">
           <div className="card h-100">
             <div className="card-body">
-              <h2 className="card-title">Tarea 1</h2>
+              <h2 className="card-title">Granja 1</h2>
               <p className="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
                 magni quas ex numquam, maxime minus quam molestias corporis
@@ -31,7 +31,7 @@ const Farms = () => {
         <div className="col-md-4 mb-5">
           <div className="card h-100">
             <div className="card-body">
-              <h2 className="card-title">Tarea 2</h2>
+              <h2 className="card-title">Granja 2</h2>
               <p className="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
                 tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem
@@ -49,7 +49,7 @@ const Farms = () => {
         <div className="col-md-4 mb-5">
           <div className="card h-100">
             <div className="card-body">
-              <h2 className="card-title">Tarea 3</h2>
+              <h2 className="card-title">Granja 3</h2>
               <p className="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
                 magni quas ex numquam, maxime minus quam molestias corporis

@@ -6,6 +6,7 @@ const TaskForm = () => {
           <h3 className="text-white m-0">Nueva tarea</h3>
         </div>
       </div>
+
       <form id="contactForm" data-sb-form-api-token="API_TOKEN">
         <div class="mb-3">
           <label class="form-label" for="granja">
@@ -103,7 +104,7 @@ const TaskForm = () => {
             id="submitButton"
             type="submit"
           >
-            Crear
+            Crear tarea
           </button>
         </div>
       </form>

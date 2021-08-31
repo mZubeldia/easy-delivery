@@ -90,8 +90,8 @@ Here's a blank template to get started:
 
 ### Built With
 
-- []()
-- []()
+- Bootstrap templates from [Start Bootstrap](https://startbootstrap.com/)
+- [ReactJS](https://reactjs.org/)
 - []()
 
 <!-- GETTING STARTED -->
@@ -101,8 +101,6 @@ Here's a blank template to get started:
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
-
-# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -154,7 +152,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/mZubeldia/easy-delivery/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 

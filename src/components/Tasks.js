@@ -1,4 +1,4 @@
-const CreateTask = () => {
+const Tasks = () => {
   return (
     <div class="container px-5 my-5">
       <form id="contactForm" data-sb-form-api-token="API_TOKEN">
@@ -106,4 +106,4 @@ const CreateTask = () => {
   );
 };
 
-export default CreateTask;
+export default Tasks;

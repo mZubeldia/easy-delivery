@@ -8,7 +8,7 @@ import Home from "./components/Home";
 
 import { Route, Switch } from "react-router-dom";
 import Farms from "./components/Farms";
-import CreateTask from "./components/CreateTask";
+import Tasks from "./components/Tasks";
 import FarmForm from "./components/FarmForm";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
           <Farms />
         </Route>
         <Route path="/tareas">
-          <CreateTask />
+          <Tasks />
         </Route>
         <Route path="/nueva-granja">
           <FarmForm />

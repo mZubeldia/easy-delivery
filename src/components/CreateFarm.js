@@ -67,7 +67,7 @@ const CreateFarm = () => {
       <div className="row">
         <div className="col-md-4 mb-5">
           <button type="button" class="btn btn-secondary">
-            Secondary
+            <i class="fas fa-plus"></i>
           </button>
         </div>
       </div>

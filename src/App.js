@@ -10,6 +10,7 @@ import { Route, Switch } from "react-router-dom";
 import Farms from "./components/Farms";
 import Tasks from "./components/Tasks";
 import FarmForm from "./components/FarmForm";
+import TaskForm from "./components/TaskForm";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
         </Route>
         <Route path="/nueva-granja">
           <FarmForm />
+        </Route>
+        <Route path="/nueva-tarea">
+          <TaskForm />
         </Route>
       </Switch>
 

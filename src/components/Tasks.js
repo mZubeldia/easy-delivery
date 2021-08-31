@@ -1,108 +1,81 @@
+import { Link } from "react-router-dom";
+
 const Tasks = () => {
   return (
-    <div class="container px-5 my-5">
-      <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-        <div class="mb-3">
-          <label class="form-label" for="granja">
-            Granja
-          </label>
-          <select class="form-select" id="granja" aria-label="Granja">
-            <option value="Granjas">Granjas</option>
-            <option value="Tres Arroyos">Tres Arroyos</option>
-            <option value="El Huerto">El Huerto</option>
-            <option value="Granja el sol">Granja el sol</option>
-            <option value="Granja La Serena">Granja La Serena</option>
-          </select>
+    <main className="container px-4 px-lg-5">
+      <div className="card text-white bg-secondary my-5 py-4 text-center">
+        <div className="card-body">
+          <h3 className="text-white m-0">Tareas</h3>
         </div>
-        <div class="mb-3">
-          <label class="form-label" for="camion">
-            Camion
-          </label>
-          <select class="form-select" id="camion" aria-label="Camion">
-            <option value="Tipo de camion">Tipo de camion</option>
-            <option value="Rigido">Rigido</option>
-            <option value="Articulado">Articulado</option>
-            <option value="Remolque">Remolque</option>
-            <option value="Frigorifico">Frigorifico</option>
-          </select>
-        </div>
-        <div class="mb-3">
-          <label class="form-label" for="matadero">
-            Matadero
-          </label>
-          <select class="form-select" id="matadero" aria-label="Matadero">
-            <option value="Mataderos">Mataderos</option>
-            <option value="M. Del Sar">M. Del Sar</option>
-            <option value="M. de Berriz">M. de Berriz</option>
-            <option value="M. Garcia">M. Garcia</option>
-            <option value="M. Bar">M. Bar</option>
-          </select>
-        </div>
-        <div class="mb-3">
-          <label class="form-label" for="empleado">
-            Empleado
-          </label>
-          <select class="form-select" id="empleado" aria-label="Empleado">
-            <option value="Empleados">Empleados</option>
-            <option value="Juan Perez">Juan Perez</option>
-            <option value="Antonio Fernandez">Antonio Fernandez</option>
-            <option value="Carlos Garcia">Carlos Garcia</option>
-          </select>
-        </div>
-        <div class="mb-3">
-          <label class="form-label" for="nCerdos">
-            N. Cerdos
-          </label>
-          <input
-            class="form-control"
-            id="nCerdos"
-            type="text"
-            placeholder="N. Cerdos"
-            data-sb-validations="required"
-          />
-          <div class="invalid-feedback" data-sb-feedback="nCerdos:required">
-            N. Cerdos is required.
+      </div>
+
+      <div className="row gx-4 gx-lg-5">
+        <div className="col-md-4 mb-5">
+          <div className="card h-100">
+            <div className="card-body">
+              <h2 className="card-title">Tarea 1</h2>
+              <p className="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
+                magni quas ex numquam, maxime minus quam molestias corporis
+                quod, ea minima accusamus.
+              </p>
+            </div>
+            <div className="card-footer">
+              <a className="btn btn-secondary btn-sm" href="#!">
+                More Info
+              </a>
+            </div>
           </div>
         </div>
-        <div class="mb-3">
-          <label class="form-label" for="tipoDeCerdo">
-            Tipo de cerdo
-          </label>
-          <select
-            class="form-select"
-            id="tipoDeCerdo"
-            aria-label="Tipo de cerdo"
-          >
-            <option value="Cerdos">Cerdos</option>
-            <option value="Iberico">Iberico</option>
-            <option value="Porcinos Duroc">Porcinos Duroc</option>
-            <option value="Porcinos Large White">Porcinos Large White</option>
-            <option value="Negro">Negro</option>
-          </select>
-        </div>
-        <div class="d-none" id="submitSuccessMessage">
-          <div class="text-center mb-3">
-            <div class="fw-bolder">Form submission successful!</div>
-            <p>To activate this form, sign up at</p>
-            <a href="https://startbootstrap.com/solution/contact-forms">
-              https://startbootstrap.com/solution/contact-forms
-            </a>
+
+        <div className="col-md-4 mb-5">
+          <div className="card h-100">
+            <div className="card-body">
+              <h2 className="card-title">Tarea 2</h2>
+              <p className="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+                tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem
+                sunt quam eaque, vel, non in id dolore voluptates quos eligendi
+                labore.
+              </p>
+            </div>
+            <div className="card-footer">
+              <a className="btn btn-secondary btn-sm" href="#!">
+                More Info
+              </a>
+            </div>
           </div>
         </div>
-        <div class="d-none" id="submitErrorMessage">
-          <div class="text-center text-danger mb-3">Error sending message!</div>
+        <div className="col-md-4 mb-5">
+          <div className="card h-100">
+            <div className="card-body">
+              <h2 className="card-title">Tarea 3</h2>
+              <p className="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
+                magni quas ex numquam, maxime minus quam molestias corporis
+                quod, ea minima accusamus.
+              </p>
+            </div>
+            <div className="card-footer">
+              <a className="btn btn-secondary btn-sm" href="#!">
+                More Info
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="d-grid">
-          <button
-            class="btn btn-secondary btn-lg"
-            id="submitButton"
-            type="submit"
+      </div>
+      <div className="row justify-content-center">
+        <div className="col-md-2 mb-3">
+          <Link
+            to="/nueva-tarea"
+            type="button"
+            class="btn btn-secondary btn-center"
           >
-            Submit
-          </button>
+            <i class="fas fa-plus"></i>
+          </Link>
         </div>
-      </form>
-    </div>
+      </div>
+    </main>
   );
 };
 

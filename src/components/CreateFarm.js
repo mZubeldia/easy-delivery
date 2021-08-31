@@ -65,8 +65,8 @@ const CreateFarm = () => {
           </div>
         </div>
       </div>
-      <div className="row justify-content-center">
-        <div className="col-md-2 mb-3">
+      <div className="col w-25">
+        <div className="row justify-content-center md-4 mb-5 w-25">
           <Link
             to="/nueva-granja"
             type="button"

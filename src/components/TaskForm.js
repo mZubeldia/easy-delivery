@@ -3,7 +3,7 @@ const TaskForm = () => {
     <main className="container px-5 my-5">
       <div className="card text-white bg-secondary my-5 py-4 text-center">
         <div className="card-body">
-          <h3 className="text-white m-0">Tareas</h3>
+          <h3 className="text-white m-0">Nueva tarea</h3>
         </div>
       </div>
       <form id="contactForm" data-sb-form-api-token="API_TOKEN">
@@ -103,7 +103,7 @@ const TaskForm = () => {
             id="submitButton"
             type="submit"
           >
-            Submit
+            Crear
           </button>
         </div>
       </form>

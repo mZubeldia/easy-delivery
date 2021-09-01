@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Tasks = () => {
+const Abattoirs = () => {
   return (
     <main className="container px-4 px-lg-5">
       <div className="card text-white bg-secondary my-5 py-4 text-center">
@@ -79,4 +79,4 @@ const Tasks = () => {
   );
 };
 
-export default Tasks;
+export default Abattoirs;

@@ -12,6 +12,7 @@ import Tasks from "./components/Tasks";
 import FarmForm from "./components/FarmForm";
 import TaskForm from "./components/TaskForm";
 import Abattoirs from "./components/Abattoirs";
+import AbattoirForm from "./components/AbattoirForm";
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
         </Route>
         <Route path="/nueva-granja">
           <FarmForm />
+        </Route>
+        <Route path="/nuevo-matadero">
+          <AbattoirForm />
         </Route>
         <Route path="/nueva-tarea">
           <TaskForm />

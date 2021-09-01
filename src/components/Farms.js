@@ -70,7 +70,7 @@ const Farms = () => {
           type="button "
           class="btn btn-add btn-floating btn-warning "
         >
-          <p className="plus">+</p>
+          <i class="fas plus-icon fa-plus"></i>
         </Link>
       </div>
     </main>

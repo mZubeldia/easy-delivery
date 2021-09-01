@@ -69,7 +69,7 @@ const Abattoirs = () => {
           <Link
             to="/nuevo-matadero"
             type="button"
-            class="btn btn-add btn-secondary btn-center"
+            class="btn btn-add btn-warning btn-center"
           >
             <i class="fas plus-icon fa-plus"></i>
           </Link>

@@ -38,16 +38,17 @@ const Header = () => {
                   Mataderos
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/tareas" className="nav-link ">
-                  {" "}
-                  Tareas
-                </Link>
-              </li>
+
               <li className="nav-item">
                 <Link to="/empleados" className="nav-link ">
                   {" "}
                   Empleados
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/tareas" className="nav-link ">
+                  {" "}
+                  Tareas
                 </Link>
               </li>
             </ul>

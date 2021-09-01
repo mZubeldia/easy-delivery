@@ -119,7 +119,7 @@ const EmployeeForm = () => {
             id="submitButton"
             type="submit"
           >
-            Crear granja
+            Crear empleado
           </button>
         </div>
       </form>

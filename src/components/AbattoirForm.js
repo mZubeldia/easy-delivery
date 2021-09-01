@@ -87,7 +87,7 @@ const AbattoirForm = () => {
             id="submitButton"
             type="submit"
           >
-            Crear granja
+            Crear matadero
           </button>
         </div>
       </form>

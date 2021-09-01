@@ -11274,10 +11274,8 @@ textarea.form-control-lg {
   }
 }
 
-
-
-.btn-add {
-  position:fixed;
+/* old btn-add
+position:fixed;
   border: 0;
 	width:60px;
 	height:60px;
@@ -11289,6 +11287,20 @@ textarea.form-control-lg {
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;  
   transition:.3s; 
+*/
+
+
+.btn-add {
+  width: 55px;
+  height: 55px;
+  border:0;
+  border-radius: 50%;
+  background: orange;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px #666;
 } 
   .btn-add:active{
     transform:scale(1.1);
@@ -11310,6 +11322,24 @@ textarea.form-control-lg {
  
 
   
+  transition: all 0.3s;
+}
+.plus{
+  color: white;
+  position: absolute;
+  top: 0;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 55px;
+  font-size: 38px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  animation: plus-out 0.3s;
   transition: all 0.3s;
 }
 

@@ -4,7 +4,7 @@
 * Copyright 2013-2021 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-small-business/blob/master/LICENSE)
 */
-/*!
+/*!btn
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
@@ -11274,30 +11274,44 @@ textarea.form-control-lg {
   }
 }
 
-.main-container {
-  position: relative;
-}
+
 
 .btn-add {
-  border-radius:100%;
-  right:0;
-  bottom:0;
-  position:absolute;
-  margin-right:16px;
-  margin-bottom:16px;
-  border:none;
-  outline:none;  
-  background:#F44336;
-
-  color:#FFF;
-  font-size:20px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position:fixed;
+  border: 0;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:orange;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;  
   transition:.3s; 
 } 
   .btn-add:active{
     transform:scale(1.1);
 
   }
+
+.plus-icon{
+  color: white;
+  position: absolute;
+  top: 0;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 55px;
+ 
+
+  
+  transition: all 0.3s;
+}
 
 
 

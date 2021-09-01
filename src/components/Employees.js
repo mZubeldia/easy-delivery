@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Employees = () => {
   return (
-    <main className="container px-4 px-lg-5">
+    <main className="container min-vh-100 px-4 px-lg-5">
       <div className="card text-white bg-secondary my-5 py-4 text-center">
         <div className="card-body">
           <h3 className="text-white m-0">Empleados</h3>
@@ -77,9 +77,9 @@ const Employees = () => {
           <Link
             to="/nuevo-empleado"
             type="button"
-            class="btn btn-secondary btn-center"
+            class="btn btn-add btn-warning btn-center"
           >
-            <i class="fas fa-plus"></i>
+            <i class="fa plus-icon fa-plus"></i>
           </Link>
         </div>
       </div>

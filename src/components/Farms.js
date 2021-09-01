@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Farms = () => {
   return (
-    <main className="container px-4 px-lg-5">
+    <main className="container min-vh-100 main-container px-4 px-lg-5 min-h">
       <div className="card text-white bg-secondary my-5 py-4 text-center">
         <div className="card-body">
           <h3 className="text-white m-0">Granjas</h3>
@@ -64,16 +64,14 @@ const Farms = () => {
           </div>
         </div>
       </div>
-      <div className="row justify-content-center">
-        <div className="col-md-2 mb-3">
-          <Link
-            to="/nueva-granja"
-            type="button"
-            class="btn btn-secondary btn-center"
-          >
-            <i class="fas fa-plus"></i>
-          </Link>
-        </div>
+      <div className="fixed-action-btn horizontal md-2 mb-3">
+        <Link
+          to="/nueva-granja"
+          type="button "
+          class="btn btn-add btn-floating btn-secondary "
+        >
+          <i class="fas fa-plus"></i>
+        </Link>
       </div>
     </main>
   );

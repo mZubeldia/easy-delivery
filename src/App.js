@@ -11,6 +11,7 @@ import Farms from "./components/Farms";
 import Tasks from "./components/Tasks";
 import FarmForm from "./components/FarmForm";
 import TaskForm from "./components/TaskForm";
+import Abattoirs from "./components/Abattoirs";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route path="/tareas">
           <Tasks />
+        </Route>
+        <Route path="/mataderos">
+          <Abattoirs />
         </Route>
         <Route path="/nueva-granja">
           <FarmForm />

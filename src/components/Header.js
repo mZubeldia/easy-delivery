@@ -45,9 +45,10 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#!">
+                <Link to="/empleados" className="nav-link ">
+                  {" "}
                   Empleados
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

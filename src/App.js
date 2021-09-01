@@ -13,6 +13,7 @@ import FarmForm from "./components/FarmForm";
 import TaskForm from "./components/TaskForm";
 import Abattoirs from "./components/Abattoirs";
 import AbattoirForm from "./components/AbattoirForm";
+import Employees from "./components/Employees";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
         </Route>
         <Route path="/mataderos">
           <Abattoirs />
+        </Route>
+        <Route path="/empleados">
+          <Employees />
         </Route>
         <Route path="/nueva-granja">
           <FarmForm />

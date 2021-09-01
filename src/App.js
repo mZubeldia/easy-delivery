@@ -14,6 +14,7 @@ import TaskForm from "./components/TaskForm";
 import Abattoirs from "./components/Abattoirs";
 import AbattoirForm from "./components/AbattoirForm";
 import Employees from "./components/Employees";
+import EmployeeForm from "./components/EmployeeForm";
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
         </Route>
         <Route path="/nuevo-matadero">
           <AbattoirForm />
+        </Route>
+        <Route path="/nuevo-empleado">
+          <EmployeeForm />
         </Route>
         <Route path="/nueva-tarea">
           <TaskForm />

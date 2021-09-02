@@ -8,11 +8,11 @@ const TaskForm = () => {
       </div>
 
       <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-        <div class="mb-3">
-          <label class="form-label" for="granja">
+        <div className="mb-3">
+          <label className="form-label" for="granja">
             Granja
           </label>
-          <select class="form-select" id="granja" aria-label="Granja">
+          <select className="form-select" id="granja" aria-label="Granja">
             <option value="Granjas">Granjas</option>
             <option value="Tres Arroyos">Tres Arroyos</option>
             <option value="El Huerto">El Huerto</option>
@@ -20,11 +20,11 @@ const TaskForm = () => {
             <option value="Granja La Serena">Granja La Serena</option>
           </select>
         </div>
-        <div class="mb-3">
-          <label class="form-label" for="camion">
+        <div className="mb-3">
+          <label className="form-label" for="camion">
             Camion
           </label>
-          <select class="form-select" id="camion" aria-label="Camion">
+          <select className="form-select" id="camion" aria-label="Camion">
             <option value="Tipo de camion">Tipo de camion</option>
             <option value="Rigido">Rigido</option>
             <option value="Articulado">Articulado</option>
@@ -32,11 +32,11 @@ const TaskForm = () => {
             <option value="Frigorifico">Frigorifico</option>
           </select>
         </div>
-        <div class="mb-3">
-          <label class="form-label" for="matadero">
+        <div className="mb-3">
+          <label className="form-label" for="matadero">
             Matadero
           </label>
-          <select class="form-select" id="matadero" aria-label="Matadero">
+          <select className="form-select" id="matadero" aria-label="Matadero">
             <option value="Mataderos">Mataderos</option>
             <option value="M. Del Sar">M. Del Sar</option>
             <option value="M. de Berriz">M. de Berriz</option>
@@ -44,38 +44,38 @@ const TaskForm = () => {
             <option value="M. Bar">M. Bar</option>
           </select>
         </div>
-        <div class="mb-3">
-          <label class="form-label" for="empleado">
+        <div className="mb-3">
+          <label className="form-label" for="empleado">
             Empleado
           </label>
-          <select class="form-select" id="empleado" aria-label="Empleado">
+          <select className="form-select" id="empleado" aria-label="Empleado">
             <option value="Empleados">Empleados</option>
             <option value="Juan Perez">Juan Perez</option>
             <option value="Antonio Fernandez">Antonio Fernandez</option>
             <option value="Carlos Garcia">Carlos Garcia</option>
           </select>
         </div>
-        <div class="mb-3">
-          <label class="form-label" for="nCerdos">
+        <div className="mb-3">
+          <label className="form-label" for="nCerdos">
             N. Cerdos
           </label>
           <input
-            class="form-control"
+            className="form-control"
             id="nCerdos"
             type="text"
             placeholder="N. Cerdos"
             data-sb-validations="required"
           />
-          <div class="invalid-feedback" data-sb-feedback="nCerdos:required">
+          <div className="invalid-feedback" data-sb-feedback="nCerdos:required">
             N. Cerdos is required.
           </div>
         </div>
-        <div class="mb-3">
-          <label class="form-label" for="tipoDeCerdo">
+        <div className="mb-3">
+          <label className="form-label" for="tipoDeCerdo">
             Tipo de cerdo
           </label>
           <select
-            class="form-select"
+            className="form-select"
             id="tipoDeCerdo"
             aria-label="Tipo de cerdo"
           >
@@ -86,21 +86,23 @@ const TaskForm = () => {
             <option value="Negro">Negro</option>
           </select>
         </div>
-        <div class="d-none" id="submitSuccessMessage">
-          <div class="text-center mb-3">
-            <div class="fw-bolder">Form submission successful!</div>
+        <div className="d-none" id="submitSuccessMessage">
+          <div className="text-center mb-3">
+            <div className="fw-bolder">Form submission successful!</div>
             <p>To activate this form, sign up at</p>
             <a href="https://startbootstrap.com/solution/contact-forms">
               https://startbootstrap.com/solution/contact-forms
             </a>
           </div>
         </div>
-        <div class="d-none" id="submitErrorMessage">
-          <div class="text-center text-danger mb-3">Error sending message!</div>
+        <div className="d-none" id="submitErrorMessage">
+          <div className="text-center text-danger mb-3">
+            Error sending message!
+          </div>
         </div>
-        <div class="d-grid">
+        <div className="d-grid">
           <button
-            class="btn btn-secondary btn-lg"
+            className="btn btn-secondary btn-lg"
             id="submitButton"
             type="submit"
           >

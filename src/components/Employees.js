@@ -14,12 +14,12 @@ const Employees = () => {
           <div className="card h-100">
             <div className="card-body">
               <h2 className="card-title">Juan Fernández</h2>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item  mb-2">
+              <ul className="list-group list-group-flush">
+                <li className="list-group-item  mb-2">
                   jfernandezavazquez@ejemplo.com.
                 </li>
-                <li class="list-group-item mb-2">812 345 678.</li>
-                <li class="list-group-item mb-2">
+                <li className="list-group-item mb-2">812 345 678.</li>
+                <li className="list-group-item mb-2">
                   IBAN ES00 0000 00 000 0000000.
                 </li>
               </ul>
@@ -36,10 +36,10 @@ const Employees = () => {
           <div className="card h-100">
             <div className="card-body">
               <h2 className="card-title">Lorena García</h2>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item  mb-2">lejemplo@gmail.com.</li>
-                <li class="list-group-item mb-2">712 345 678.</li>
-                <li class="list-group-item mb-2">
+              <ul className="list-group list-group-flush">
+                <li className="list-group-item  mb-2">lejemplo@gmail.com.</li>
+                <li className="list-group-item mb-2">712 345 678.</li>
+                <li className="list-group-item mb-2">
                   IBAN ES00 0000 00 000 0000000.
                 </li>
               </ul>
@@ -56,10 +56,10 @@ const Employees = () => {
             <div className="card-body">
               <h2 className="card-title">Jose Antonio Vázquez</h2>
 
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item  mb-2">javazquez@gmail.com.</li>
-                <li class="list-group-item mb-2">612 345 678.</li>
-                <li class="list-group-item mb-2">
+              <ul className="list-group list-group-flush">
+                <li className="list-group-item  mb-2">javazquez@gmail.com.</li>
+                <li className="list-group-item mb-2">612 345 678.</li>
+                <li className="list-group-item mb-2">
                   IBAN ES00 0000 00 000 0000000.
                 </li>
               </ul>
@@ -77,9 +77,9 @@ const Employees = () => {
           <Link
             to="/nuevo-empleado"
             type="button"
-            class="btn btn-add btn-warning btn-center"
+            className="btn btn-add btn-warning btn-center"
           >
-            <i class="fa plus-icon fa-plus"></i>
+            <i className="fa plus-icon fa-plus"></i>
           </Link>
         </div>
       </div>

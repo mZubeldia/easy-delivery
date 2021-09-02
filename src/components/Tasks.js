@@ -69,9 +69,9 @@ const Tasks = () => {
           <Link
             to="/nueva-tarea"
             type="button"
-            class="btn btn-add btn-warning btn-center"
+            className="btn btn-add btn-warning btn-center"
           >
-            <i class="fas plus-icon fa-plus"></i>
+            <i className="fas plus-icon fa-plus"></i>
           </Link>
         </div>
       </div>

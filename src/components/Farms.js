@@ -68,9 +68,9 @@ const Farms = () => {
         <Link
           to="/nueva-granja"
           type="button "
-          class="btn btn-add btn-floating btn-warning "
+          className="btn btn-add btn-floating btn-warning "
         >
-          <i class="fas plus-icon fa-plus"></i>
+          <i className="fas plus-icon fa-plus"></i>
         </Link>
       </div>
     </main>

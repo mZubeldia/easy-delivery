@@ -3,29 +3,31 @@ const TaskDetail = () => {
     <main className="container min-vh-100 px-4 px-lg-5">
       <div className="card text-white bg-secondary my-5 py-4 text-center">
         <div className="card-body">
-          <h3 className="text-white m-0">Detalle</h3>
+          <h3 className="text-white m-0">Detalle tarea</h3>
         </div>
       </div>
 
-      <div className="row gx-4 gx-lg-5 justify-content-md-center">
-        <div className="col-md-auto">
-          <div className="card h-100">
+      <div className="row gx-4 my-5 py-4 justify-content-center">
+        <div className="col-6 ">
+          <div className="card h-100 ">
             <div className="card-body">
-              <h2 className="card-title">Juan Fernández</h2>
+              <h2 className="card-title">Tarea 1</h2>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item  mb-2">
-                  jfernandezavazquez@ejemplo.com.
-                </li>
-                <li className="list-group-item mb-2">812 345 678.</li>
-                <li className="list-group-item mb-2">
-                  IBAN ES00 0000 00 000 0000000.
-                </li>
+                <li className="list-group-item  mb-2">Fecha de recogida</li>
+                <li className="list-group-item mb-2">Fecha de entrega</li>
+                <li className="list-group-item mb-2">Direccion de recogida</li>
+                <li className="list-group-item mb-2">Granja</li>
+                <li className="list-group-item mb-2">Matadero</li>
+                <li className="list-group-item mb-2">Empleado</li>
+                <li className="list-group-item mb-2">Camion</li>
+                <li className="list-group-item mb-2">N. cerdos</li>
+                <li className="list-group-item mb-2">Tipo de cerdos</li>
               </ul>
             </div>
             <div className="card-footer">
-              <a className="btn btn-secondary btn-sm" href="#!">
-                More Info
-              </a>
+              <button className="btn btn-secondary btn-sm" href="#!">
+                Editar
+              </button>
             </div>
           </div>
         </div>

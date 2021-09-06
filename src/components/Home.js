@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import ScrollButton from "./ScrollButton/ScrollButton";
 
 const Home = () => {
@@ -17,7 +19,7 @@ const Home = () => {
           <div className="col-md-4 mb-5">
             <div className="card h-100 border-warning">
               <div className="card-body">
-                <h2 className="card-title">Tarea 1</h2>
+                <h2 className="card-title">Tarea 1 +</h2>
                 <p className="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
                   magni quas ex numquam, maxime minus quam molestias corporis
@@ -25,9 +27,9 @@ const Home = () => {
                 </p>
               </div>
               <div className="card-footer">
-                <a className="btn btn-warning btn-sm" href="#!">
+                <Link className="btn btn-warning btn-sm" to="/detalle-tarea">
                   More Info
-                </a>
+                </Link>
               </div>
             </div>
           </div>

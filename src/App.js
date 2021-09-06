@@ -20,6 +20,7 @@ import AbattoirForm from "./components/Abattoirs/AbattoirForm";
 
 import Employees from "./components/Employees/Employees";
 import EmployeeForm from "./components/Employees/EmployeeForm";
+import TaskDetail from "./components/Tasks/TaskDetail";
 
 function App() {
   return (
@@ -52,6 +53,9 @@ function App() {
         </Route>
         <Route path="/nueva-tarea">
           <TaskForm />
+        </Route>
+        <Route path="/detalle-tarea">
+          <TaskDetail />
         </Route>
       </Switch>
 

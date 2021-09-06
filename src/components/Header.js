@@ -40,15 +40,7 @@ const Header = () => {
             </ul>
           </div>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button type="button" id="sidebarCollapse" class="navbar-toggler">
             <span class="navbar-toggler-icon"></span>
           </button>
 

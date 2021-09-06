@@ -1,4 +1,4 @@
-import ScrollButton from "../ScrollButton";
+import ScrollButton from "./ScrollButton/ScrollButton";
 
 const Home = () => {
   return (

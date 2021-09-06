@@ -1,20 +1,25 @@
 //styles
-import "./App.css";
-
-//components
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Home from "./components/Home";
+import "./stylesheet/App.css";
 
 import { Route, Switch } from "react-router-dom";
-import Farms from "./components/Farms";
-import Tasks from "./components/Tasks";
-import FarmForm from "./components/FarmForm";
-import TaskForm from "./components/TaskForm";
-import Abattoirs from "./components/Abattoirs";
-import AbattoirForm from "./components/AbattoirForm";
-import Employees from "./components/Employees";
-import EmployeeForm from "./components/EmployeeForm";
+
+//components
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+import Home from "./components/Home";
+
+import Farms from "./components/Farms/Farms";
+import FarmForm from "./components/Farms/FarmForm";
+
+import Tasks from "./components/Tasks/Tasks";
+import TaskForm from "./components/Tasks/TaskForm";
+
+import Abattoirs from "./components/Abattoirs/Abattoirs";
+import AbattoirForm from "./components/Abattoirs/AbattoirForm";
+
+import Employees from "./components/Employees/Employees";
+import EmployeeForm from "./components/Employees/EmployeeForm";
 
 function App() {
   return (

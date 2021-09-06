@@ -31,12 +31,18 @@ const Tasks = () => {
         <div className="col-md-4 mb-5">
           <div className="card h-100">
             <div className="card-body">
-              <h2 className="card-title">Tarea 2</h2>
+              <h2 className="card-title">Prueba</h2>
               <p className="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
                 tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem
                 sunt quam eaque, vel, non in id dolore voluptates quos eligendi
-                labore.
+                labore. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur
+                voluptatem sunt quam eaque, vel, non in id dolore voluptates
+                quos eligendi labore. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Quod tenetur ex natus at dolorem enim!
+                Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id
+                dolore voluptates quos eligendi labore. Prueba texto mas largo.
               </p>
             </div>
             <div className="card-footer">

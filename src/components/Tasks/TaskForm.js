@@ -88,17 +88,20 @@ const TaskForm = () => {
             <option value="Negro">Negro</option>
           </select>
         </div>
-        <div className="mb-3">
-          <Form.Group controlId="dob">
-            <Form.Label>Fecha recogida granja</Form.Label>
-            <Form.Control type="date" name="dob" placeholder="Fecha" />
-          </Form.Group>
-        </div>
-        <div className="mb-3">
-          <Form.Group controlId="dob">
-            <Form.Label>Fecha entrega matadero</Form.Label>
-            <Form.Control type="date" name="dob" placeholder="Fecha" />
-          </Form.Group>
+        <div className="row mt-3 mb-5">
+          <div className="col-md-6">
+            <Form.Group controlId="dob">
+              <Form.Label>Fecha recogida granja</Form.Label>
+              <Form.Control type="date" name="dob" placeholder="Fecha" />
+            </Form.Group>
+          </div>
+
+          <div className="col-md-6">
+            <Form.Group controlId="dob">
+              <Form.Label>Fecha entrega matadero</Form.Label>
+              <Form.Control type="date" name="dob" placeholder="Fecha" />
+            </Form.Group>
+          </div>
         </div>
 
         <div className="d-none" id="submitSuccessMessage">

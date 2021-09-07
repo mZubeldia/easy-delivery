@@ -1,0 +1,38 @@
+{
+    "pendingTasks": "Super hero squad",
+    "number": 2,
+    "formed": 2021,
+    "active": true,
+    "tasks": [
+      {
+        "id": 1,
+        "pickUpDate": [
+            "12",
+            "01",
+            "2021"
+          ],
+          "dropOffDate": [
+            "13",
+            "01",
+            "2021"
+          ],
+        "farm": "Tres Arroyos",
+        "abattoir": "M. Garcia",
+        "employee": "Juan Perez",
+        "truck": "Rigido",
+        "pigNumber": 40,
+        "pigType": "iberico"
+
+      },
+      {
+        "name": "Madame Uppercut",
+        "age": 39,
+        "secretIdentity": "Jane Wilson",
+        "powers": [
+          "Million tonne punch",
+          "Damage resistance",
+          "Superhuman reflexes"
+        ]
+      }
+    ]
+}

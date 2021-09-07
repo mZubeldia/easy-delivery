@@ -1,3 +1,5 @@
+import { Form } from "react-bootstrap";
+
 const TaskForm = () => {
   return (
     <main className="container px-5 my-5">
@@ -86,6 +88,19 @@ const TaskForm = () => {
             <option value="Negro">Negro</option>
           </select>
         </div>
+        <div className="mb-3">
+          <Form.Group controlId="dob">
+            <Form.Label>Fecha recogida granja</Form.Label>
+            <Form.Control type="date" name="dob" placeholder="Fecha" />
+          </Form.Group>
+        </div>
+        <div className="mb-3">
+          <Form.Group controlId="dob">
+            <Form.Label>Fecha entrega matadero</Form.Label>
+            <Form.Control type="date" name="dob" placeholder="Fecha" />
+          </Form.Group>
+        </div>
+
         <div className="d-none" id="submitSuccessMessage">
           <div className="text-center mb-3">
             <div className="fw-bolder">Form submission successful!</div>

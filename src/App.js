@@ -3,6 +3,8 @@ import "./stylesheet/App.css";
 
 import { Route, Switch } from "react-router-dom";
 
+import pendingTasksdata from "./data/pending-tasks.json";
+
 //components
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -23,12 +25,13 @@ import EmployeeForm from "./components/Employees/EmployeeForm";
 import TaskDetail from "./components/Tasks/TaskDetail";
 
 function App() {
+  console.log(pendingTasksdata);
   return (
     <>
       <Header />
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Home pendingTasks={pendingTasksdata} />
         </Route>
         <Route path="/granjas">
           <Farms />

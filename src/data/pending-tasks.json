@@ -6,16 +6,9 @@
     "tasks": [
       {
         "id": 1,
-        "pickUpDate": [
-            "12",
-            "01",
-            "2021"
-          ],
-          "dropOffDate": [
-            "13",
-            "01",
-            "2021"
-          ],
+        "pickUpDate": "2021-03-09T19:20+01:00",
+        "dropOffDate": "2021-03-10T19:20+01:00",
+
         "farm": "Tres Arroyos",
         "abattoir": "M. Garcia",
         "employee": "Juan Perez",
@@ -25,14 +18,16 @@
 
       },
       {
-        "name": "Madame Uppercut",
-        "age": 39,
-        "secretIdentity": "Jane Wilson",
-        "powers": [
-          "Million tonne punch",
-          "Damage resistance",
-          "Superhuman reflexes"
-        ]
+        "id": 2,
+        "pickUpDate": "2021-10-20T19:20+01:00",
+        "dropOffDate": "2021-10-21T19:20+01:00",
+
+        "farm": "El Huerto",
+        "abattoir": "M. Del Sar",
+        "employee": "Antonio Fernandez",
+        "truck": "Articulado",
+        "pigNumber": 20,
+        "pigType": "Porcino Duroc"
       }
     ]
 }

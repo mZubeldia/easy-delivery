@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header classNameName="App-header">
+    <header className="App-header">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container px-5">
           <a className="navbar-brand" href="/">
             Easy Delivery
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -17,7 +17,7 @@ const Header = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">

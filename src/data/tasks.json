@@ -1,0 +1,50 @@
+{
+    "formed": 2021,
+    "active": true,
+    "tasks": [
+      {
+        "state": "pending",
+        "id": 1,
+        "pickUpDate": "2021-03-09T19:20+01:00",
+        "dropOffDate": "2021-03-10T19:20+01:00",
+        "pickUpAddress": {
+          "street": "22 Rue du Grenier Saint-Lazare",
+          "number": "22",
+
+          "postalCode": "75003",
+          "city": "Paris",
+          "countryCode": "FRA",
+          "country": "France"
+        },
+        "dropOffAddress": {
+          "street": "Calle Castilla",
+          "number": "102",
+          "postalCode": "41020",
+          "city": "Barcelona",
+          "countryCode": "ESP",
+          "country": "Spain"
+        },
+
+        "farm": "Tres Arroyos",
+        "abattoir": "M. Garcia",
+        "employee": "Juan Perez",
+        "truck": "Rigido",
+        "pigNumber": 40,
+        "pigType": "iberico"
+
+      },
+      {
+        "state": "completed",
+        "id": 2,
+        "pickUpDate": "2021-10-20T19:20+01:00",
+        "dropOffDate": "2021-10-21T19:20+01:00",
+
+        "farm": "El Huerto",
+        "abattoir": "M. Del Sar",
+        "employee": "Antonio Fernandez",
+        "truck": "Articulado",
+        "pigNumber": 20,
+        "pigType": "Porcino Duroc"
+      }
+    ]
+}

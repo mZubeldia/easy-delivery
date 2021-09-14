@@ -3,7 +3,7 @@ import "./stylesheet/App.css";
 
 import { Route, Switch } from "react-router-dom";
 
-import taskData from "./data/pending-tasks.json";
+import taskData from "./data/tasks.json";
 
 //components
 import Header from "./components/Header";
@@ -25,7 +25,6 @@ import EmployeeForm from "./components/Employees/EmployeeForm";
 import TaskDetail from "./components/Tasks/TaskDetail";
 
 function App() {
-  console.log(taskData);
   return (
     <>
       <Header />

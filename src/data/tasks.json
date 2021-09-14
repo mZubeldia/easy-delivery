@@ -45,6 +45,19 @@
         "truck": "Articulado",
         "pigNumber": 20,
         "pigType": "Porcino Duroc"
+      },
+      {
+        "state": "completed",
+        "id": 50,
+        "pickUpDate": "2021-08-03T19:20+01:00",
+        "dropOffDate": "2021-08-04T19:20+01:00",
+
+        "farm": "Los Martinez",
+        "abattoir": "Pineda",
+        "employee": "Antonio Fernandez",
+        "truck": "Articulado",
+        "pigNumber": 60,
+        "pigType": "Porcino Duroc"
       }
     ]
 }

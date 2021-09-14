@@ -1,28 +1,11 @@
-import { Link } from "react-router-dom";
+import PendingTask from "./PendingTask";
 
 const PendingList = (props) => {
-  console.log(props.taskData.tasks);
-  const htmlPending = props.taskData.tasks.map((pendingTask) => (
+  const htmlPending = props.taskData.tasks.map((pendingTask, index) => (
     <div className="col-md-4 mb-5">
-      <div key={pendingTask.id} className="card h-100 border-warning">
-        <div className="card-body">
-          <h2 className="card-title">Tarea {pendingTask.id}</h2>
-          <ul className="list-group list-group-flush">
-            <li className="list-group-item  mb-2">{pendingTask.pickUpDate}</li>
-            <li className="list-group-item mb-2">{pendingTask.farm}</li>
-            <li className="list-group-item mb-2">{pendingTask.dropOffDate}</li>
-            <li className="list-group-item mb-2">{pendingTask.abattoir}</li>
-          </ul>
-        </div>
-        <div className="card-footer">
-          <Link className="btn btn-warning btn-sm" to="/detalle-tarea">
-            More Info
-          </Link>
-        </div>
-      </div>
+      <PendingTask pendingTask={pendingTask} />
     </div>
   ));
-  console.log(htmlPending);
 
   return (
     <section className="pending-section">

@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 
-import ScrollButton from "./ScrollButton/ScrollButton";
+import ScrollButton from "../ScrollButton/ScrollButton";
 
 const Home = () => {
   return (
     <main className="container px-4 px-lg-5">
       <section className="pending-section">
+        {/* pending section */}
         <div className="card text-white bg-warning my-5 py-4 text-center">
           <div className="card-body">
             <h3 className="text-white m-0">
@@ -79,6 +80,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* done section */}
 
       <section className="done-section">
         <div className="card text-white bg-success my-5 py-4 text-center">

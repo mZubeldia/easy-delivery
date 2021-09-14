@@ -3,13 +3,13 @@ import "./stylesheet/App.css";
 
 import { Route, Switch } from "react-router-dom";
 
-import pendingTasksdata from "./data/pending-tasks.json";
+import taskData from "./data/pending-tasks.json";
 
 //components
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-import Home from "./components/Home";
+import Home from "./components/Home/Home";
 
 import Farms from "./components/Farms/Farms";
 import FarmForm from "./components/Farms/FarmForm";
@@ -25,19 +25,19 @@ import EmployeeForm from "./components/Employees/EmployeeForm";
 import TaskDetail from "./components/Tasks/TaskDetail";
 
 function App() {
-  console.log(pendingTasksdata);
+  console.log(taskData);
   return (
     <>
       <Header />
       <Switch>
         <Route exact path="/">
-          <Home pendingTasks={pendingTasksdata} />
+          <Home taskData={taskData} />
         </Route>
         <Route path="/granjas">
           <Farms />
         </Route>
         <Route path="/tareas">
-          <Tasks />
+          <Tasks taskData={taskData} />
         </Route>
         <Route path="/mataderos">
           <Abattoirs />

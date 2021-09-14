@@ -9,9 +9,9 @@ const PendingList = (props) => {
           <h2 className="card-title">Tarea {pendingTask.id}</h2>
           <ul className="list-group list-group-flush">
             <li className="list-group-item  mb-2">{pendingTask.pickUpDate}</li>
+            <li className="list-group-item mb-2">{pendingTask.farm}</li>
             <li className="list-group-item mb-2">{pendingTask.dropOffDate}</li>
-            <li className="list-group-item mb-2">Direccion de recogida</li>
-            <li className="list-group-item mb-2">Direccion de entrega</li>
+            <li className="list-group-item mb-2">{pendingTask.abattoir}</li>
           </ul>
         </div>
         <div className="card-footer">
@@ -22,6 +22,7 @@ const PendingList = (props) => {
       </div>
     </div>
   ));
+  console.log(htmlPending);
 
   return (
     <section className="pending-section">
@@ -34,63 +35,7 @@ const PendingList = (props) => {
         </div>
       </div>
 
-      <div className="row gx-4 gx-lg-5">
-        <div className="col-md-4 mb-5">
-          <div className="card h-100 border-warning">
-            <div className="card-body">
-              <h2 className="card-title">Tarea 1 +</h2>
-              <ul className="list-group list-group-flush">
-                <li className="list-group-item  mb-2">Fecha de recogida</li>
-                <li className="list-group-item mb-2">Fecha de entrega</li>
-                <li className="list-group-item mb-2">Direccion de recogida</li>
-                <li className="list-group-item mb-2">Direccion de entrega</li>
-              </ul>
-            </div>
-            <div className="card-footer">
-              <Link className="btn btn-warning btn-sm" to="/detalle-tarea">
-                More Info
-              </Link>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-md-4 mb-5">
-          <div className="card h-100 border-warning">
-            <div className="card-body">
-              <h2 className="card-title">Tarea 2</h2>
-              <ul className="list-group list-group-flush">
-                <li className="list-group-item  mb-2">Fecha de recogida</li>
-                <li className="list-group-item mb-2">Fecha de entrega</li>
-                <li className="list-group-item mb-2">Direccion de recogida</li>
-                <li className="list-group-item mb-2">Direccion de entrega</li>
-              </ul>
-            </div>
-            <div className="card-footer">
-              <a className="btn btn-warning btn-sm" href="#!">
-                More Info
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4 mb-5">
-          <div className="card h-100 border-warning">
-            <div className="card-body">
-              <h2 className="card-title">Tarea 3</h2>
-              <ul className="list-group list-group-flush">
-                <li className="list-group-item  mb-2">Fecha de recogida</li>
-                <li className="list-group-item mb-2">Fecha de entrega</li>
-                <li className="list-group-item mb-2">Direccion de recogida</li>
-                <li className="list-group-item mb-2">Direccion de entrega</li>
-              </ul>
-            </div>
-            <div className="card-footer">
-              <a className="btn btn-warning btn-sm" href="#!">
-                More Info
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div className="row gx-4 gx-lg-5">{htmlPending}</div>
     </section>
   );
 };

@@ -3,7 +3,9 @@ import "./stylesheet/App.css";
 
 import { Route, Switch } from "react-router-dom";
 
+//data
 import taskData from "./data/tasks.json";
+import farmData from "./data/farms.json";
 
 //components
 import Header from "./components/Header";
@@ -11,8 +13,8 @@ import Footer from "./components/Footer";
 
 import Home from "./components/Home/Home";
 
-import Farms from "./components/Farms/Farms";
 import FarmForm from "./components/Farms/FarmForm";
+import FarmsList from "./components/Farms/FarmsList";
 
 import Tasks from "./components/Tasks/Tasks";
 import TaskForm from "./components/Tasks/TaskForm";
@@ -25,6 +27,7 @@ import EmployeeForm from "./components/Employees/EmployeeForm";
 import TaskDetail from "./components/Tasks/TaskDetail";
 
 function App() {
+  console.log(farmData);
   return (
     <>
       <Header />
@@ -33,7 +36,7 @@ function App() {
           <Home taskData={taskData} />
         </Route>
         <Route path="/granjas">
-          <Farms />
+          <FarmsList farmData={farmData} />
         </Route>
         <Route path="/tareas">
           <Tasks taskData={taskData} />

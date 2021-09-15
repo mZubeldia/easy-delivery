@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const PendingTask = (props) => {
   var opciones = { year: "numeric", month: "short", day: "numeric" };
   var fecha = new Date().toLocaleDateString("es", opciones);
-  console.log(fecha);
+  //console.log(fecha);
   return (
     <>
       <div key={props.pendingTask.id} className="card h-100 border-warning">

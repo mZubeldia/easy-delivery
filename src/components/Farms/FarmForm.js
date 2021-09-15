@@ -25,6 +25,24 @@ const FarmForm = () => {
         </div>
         <div className="mb-3">
           <label className="form-label" for="geolocalizacion">
+            Direccion
+          </label>
+          <input
+            className="form-control"
+            id="geolocalizacion"
+            type="text"
+            placeholder="Geolocalizacion"
+            data-sb-validations="required"
+          />
+          <div
+            className="invalid-feedback"
+            data-sb-feedback="geolocalizacion:required"
+          >
+            Direccion is required.
+          </div>
+        </div>
+        <div className="mb-3">
+          <label className="form-label" for="geolocalizacion">
             Geolocalizacion
           </label>
           <input

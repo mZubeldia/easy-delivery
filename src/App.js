@@ -27,7 +27,6 @@ import EmployeeForm from "./components/Employees/EmployeeForm";
 import TaskDetail from "./components/Tasks/TaskDetail";
 
 function App() {
-  console.log(farmData);
   return (
     <>
       <Header />

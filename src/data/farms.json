@@ -1,0 +1,54 @@
+{
+    "formed": 2021,
+    "active": true,
+    "farms": [
+      {
+        "name": "Tres arroyos",
+        "id": 1,
+        "geolocation": "11.1234.111",
+        "phone": "624 123 564",
+        "address": {
+          "street": "Avenida Tres Gracias",
+          "number": "84",
+          "postalCode": "123123",
+          "city": "Madrid",
+          "countryCode": "ESP",
+          "country": "Espana"
+        },
+        "comments": "Acceso muy estrecho"
+
+      },
+      {
+        "name": "El sol",
+        "id": 2,
+        "geolocation": "22.1234.222",
+        "phone": "623 3452 12",
+        "address": {
+          "street": "Barriada La Palmera",
+          "number": "43",
+          "postalCode": "48123",
+          "city": "Cuenca",
+          "countryCode": "ESP",
+          "country": "Espana"
+        },
+        "comments": "horario de 12 a 17"
+
+      },
+      {
+        "name": "Los robles",
+        "id": 3,
+        "geolocation": "44.456.33",
+        "phone": "624 456 789",
+        "address": {
+          "street": "Calle Santa Cecilia",
+          "number": "67",
+          "postalCode": "68923",
+          "city": "Vigo",
+          "countryCode": "ESP",
+          "country": "Espana"
+        },
+        "comments": ""
+
+      }
+    ]
+}

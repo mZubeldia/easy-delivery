@@ -3103,6 +3103,12 @@ textarea.form-control-lg {
   border-color: #74b3a8;
 }
 
+.btn-pending {
+  color: #fff;
+  background-color: var(--bs-warning-pink);
+  border-color: #c794ba;
+}
+
 .btn-success {
   color: #fff;
   background-color: #198754;

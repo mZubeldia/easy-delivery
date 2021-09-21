@@ -1,7 +1,7 @@
 const TaskDetail = () => {
   return (
     <main className="container min-vh-100 px-4 px-lg-5">
-      <div className="card text-white bg-secondary my-5 py-4 text-center">
+      <div className="card text-white bg-task my-5 py-4 text-center">
         <div className="card-body">
           <h3 className="text-white m-0">Detalle tarea</h3>
         </div>
@@ -26,10 +26,10 @@ const TaskDetail = () => {
             </div>
             <div className="card-footer">
               <div className="d-flex flex-row col-sm-auto">
-                <button className="btn btn-secondary btn-sm m-1" href="#!">
+                <button className="btn btn-task btn-sm m-1" href="#!">
                   Editar
                 </button>
-                <button className="btn btn-secondary btn-sm m-1" href="#!">
+                <button className="btn btn-task btn-sm m-1" href="#!">
                   Guardar
                 </button>
               </div>

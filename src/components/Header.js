@@ -6,7 +6,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-black2 ">
         <div className="container px-5">
           <a className="navbar-brand" href="/">
-            Easy Delivery
+            <h1 className="brand-title">Easy Delivery</h1>
           </a>
           <button
             className="navbar-toggler"

@@ -3112,7 +3112,7 @@ textarea.form-control-lg {
 .btn-task {
   color: #fff;
   background-color: var(--bs-important);
-  border-color: #ec7e7c ;
+  border-color: #c794ba;
 }
 
 .btn-success {
@@ -4572,6 +4572,10 @@ textarea.form-control-lg {
 .card-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
+}
+
+.brand-title{
+  font-size: 2rem;
 }
 
 .card-title {

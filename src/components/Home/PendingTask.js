@@ -26,8 +26,6 @@ const PendingTask = (props) => {
               </li>
             </ul>
           </div>
-
-          <div className="card-footer"></div>
         </Link>
       </div>
     </>

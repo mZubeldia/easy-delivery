@@ -3097,6 +3097,12 @@ textarea.form-control-lg {
   border-color: #6c757d;
 }
 
+.btn-completed {
+  color: #fff;
+  background-color: var(--bs-happy-green);
+  border-color: #74b3a8;
+}
+
 .btn-success {
   color: #fff;
   background-color: #198754;

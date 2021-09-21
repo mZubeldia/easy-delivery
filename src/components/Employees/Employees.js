@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 const Employees = () => {
   return (
     <main className="container min-vh-100 px-4 px-lg-5">
-      <div className="card text-white bg-secondary my-5 py-4 text-center">
+      <div className="card text-white bg-completed my-5 py-4 text-center">
         <div className="card-body">
-          <h3 className="text-white m-0">Empleados</h3>
+          <h3 className="text-black m-0">Empleados</h3>
         </div>
       </div>
 
       <div className="row gx-4 gx-lg-5">
         <div className="col-md-4 mb-5">
-          <div className="card h-100">
+          <div className="card h-100 border-completed">
             <div className="card-body">
               <h2 className="card-title">Juan Fernández</h2>
               <ul className="list-group list-group-flush">

@@ -48,6 +48,7 @@
   --bs-warning-pink:#e8acd9;
   --bs-pale-green:#F9F9F9;
   --bs-happy-green: #8cdcce;
+  --bs-important: #FF5C58;
 
   --bs-paragrap:#555555 ;
   --bs-title:##7F7C82 ;
@@ -3107,6 +3108,11 @@ textarea.form-control-lg {
   color: #fff;
   background-color: var(--bs-warning-pink);
   border-color: #c794ba;
+}
+.btn-task {
+  color: #fff;
+  background-color: var(--bs-important);
+  border-color: #ec7e7c ;
 }
 
 .btn-success {
@@ -6926,6 +6932,9 @@ textarea.form-control-lg {
 .border-completed {
   border-color: var(--bs-happy-green) !important;
 }
+.border-task {
+  border-color: #ec7e7c !important;
+}
 
 
 .border-danger {
@@ -7861,6 +7870,11 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: var(--bs-warning-pink) !important;
 }
+.bg-task {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-important) !important;
+}
+
 
 .bg-danger {
   --bs-bg-opacity: 1;

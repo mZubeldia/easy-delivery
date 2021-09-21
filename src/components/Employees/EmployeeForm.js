@@ -1,9 +1,9 @@
 const EmployeeForm = () => {
   return (
     <main className="container px-5 my-5">
-      <div className="card text-white bg-secondary my-5 py-4 text-center">
+      <div className="card text-white bg-completed my-5 py-4 text-center">
         <div className="card-body">
-          <h3 className="text-white m-0">Nuevo empleado</h3>
+          <h3 className="text-black m-0">Nuevo empleado</h3>
         </div>
       </div>
 
@@ -123,7 +123,7 @@ const EmployeeForm = () => {
         </div>
         <div className="d-grid">
           <button
-            className="btn btn-secondary btn-lg"
+            className="btn btn-completed btn-lg"
             id="submitButton"
             type="submit"
           >

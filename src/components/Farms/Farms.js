@@ -1,7 +1,7 @@
 const Farms = (props) => {
   return (
     <>
-      <div className="card h-100">
+      <div className="card h-100 border-completed">
         <div className="card-body">
           <h2 className="card-title">{props.farmData.name}</h2>
           <ul className="list-group list-group-flush">

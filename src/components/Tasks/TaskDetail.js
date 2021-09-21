@@ -25,13 +25,11 @@ const TaskDetail = () => {
               </ul>
             </div>
             <div className="card-footer">
-              <div className="row mb-3">
-                <button className="btn btn-secondary btn-sm" href="#!">
+              <div className="d-flex flex-row col-sm-auto">
+                <button className="btn btn-secondary btn-sm m-1" href="#!">
                   Editar
                 </button>
-              </div>
-              <div className="row">
-                <button className="btn btn-secondary btn-sm" href="#!">
+                <button className="btn btn-secondary btn-sm m-1" href="#!">
                   Guardar
                 </button>
               </div>

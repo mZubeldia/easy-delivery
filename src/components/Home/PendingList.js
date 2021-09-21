@@ -9,7 +9,7 @@ const PendingList = (props) => {
 
   return (
     <section className="pending-section">
-      <div className="card text-white bg-warning my-5 py-4 text-center">
+      <div className="card text-white bg-pending my-5 py-4 text-center">
         <div className="card-body">
           <h3 className="text-white m-0">
             <i className="d-xl-none far fa-clock pending-icon "></i> Tareas

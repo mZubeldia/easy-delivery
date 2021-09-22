@@ -5,7 +5,7 @@ const Abattoirs = () => {
     <main className="container min-vh-100 px-4 px-lg-5">
       <div className="card text-white bg-pending my-5 py-4 text-center">
         <div className="card-body">
-          <h3 className="text-black m-0">Mataderos</h3>
+          <h2 className="text-black m-0">Mataderos</h2>
         </div>
       </div>
 
@@ -13,7 +13,7 @@ const Abattoirs = () => {
         <div className="col-md-4 mb-5">
           <div className="card h-100 border-pending">
             <div className="card-body">
-              <h2 className="card-title">Matadero 1</h2>
+              <h3 className="card-title">Matadero 1</h3>
               <p className="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
                 magni quas ex numquam, maxime minus quam molestias corporis
@@ -31,7 +31,7 @@ const Abattoirs = () => {
         <div className="col-md-4 mb-5">
           <div className="card h-100">
             <div className="card-body">
-              <h2 className="card-title">Matadero 2</h2>
+              <h3 className="card-title">Matadero 2</h3>
               <p className="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
                 tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem
@@ -49,7 +49,7 @@ const Abattoirs = () => {
         <div className="col-md-4 mb-5">
           <div className="card h-100">
             <div className="card-body">
-              <h2 className="card-title">Matadero 3</h2>
+              <h3 className="card-title">Matadero 3</h3>
               <p className="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
                 magni quas ex numquam, maxime minus quam molestias corporis

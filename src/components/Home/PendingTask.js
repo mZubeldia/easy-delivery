@@ -12,7 +12,7 @@ const PendingTask = (props) => {
       <div key={props.pendingTask.id} className="card h-100 border-pending">
         <Link className="card-link" to="/detalle-tarea">
           <div className="card-body">
-            <h2 className="card-title">Tarea {props.pendingTask.id}</h2>
+            <h3 className="card-title">Tarea {props.pendingTask.id}</h3>
             <ul className="list-group list-group-flush">
               <li className="list-group-item  mb-2">
                 Fecha recogida: {props.pendingTask.pickUpDate}

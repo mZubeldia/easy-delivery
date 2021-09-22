@@ -11,10 +11,7 @@ const PendingList = (props) => {
     <section className="pending-section">
       <div className="card text-white bg-pending my-5 py-4 text-center">
         <div className="card-body">
-          <h3 className="text-black m-0">
-            <i className="d-xl-none far fa-clock pending-icon "></i> Tareas
-            completadas
-          </h3>
+          <h2 className="text-black m-0">Tareas pendientes</h2>
         </div>
       </div>
 

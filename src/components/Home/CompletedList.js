@@ -10,7 +10,7 @@ const CompletedList = (props) => {
     <section className="done-section">
       <div className="card text-white bg-completed my-5 py-4 text-center">
         <div className="card-body">
-          <h3 className="text-black m-0">Tareas completadas</h3>
+          <h2 className="text-black m-0">Tareas completadas</h2>
         </div>
       </div>
       <div className="row gx-4 gx-lg-5">{htmlCompleted}</div>

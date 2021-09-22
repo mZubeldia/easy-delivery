@@ -3,7 +3,7 @@ const EmployeeForm = () => {
     <main className="container px-5 my-5">
       <div className="card text-white bg-completed my-5 py-4 text-center">
         <div className="card-body">
-          <h3 className="text-black m-0">Nuevo empleado</h3>
+          <h2 className="text-black m-0">Nuevo empleado</h2>
         </div>
       </div>
 

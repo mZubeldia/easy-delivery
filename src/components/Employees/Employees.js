@@ -5,7 +5,7 @@ const Employees = () => {
     <main className="container min-vh-100 px-4 px-lg-5">
       <div className="card text-white bg-completed my-5 py-4 text-center">
         <div className="card-body">
-          <h3 className="text-black m-0">Empleados</h3>
+          <h2 className="text-black m-0">Empleados</h2>
         </div>
       </div>
 
@@ -13,7 +13,7 @@ const Employees = () => {
         <div className="col-md-4 mb-5">
           <div className="card h-100 border-completed">
             <div className="card-body">
-              <h2 className="card-title">Juan Fernández</h2>
+              <h3 className="card-title">Juan Fernández</h3>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item  mb-2">
                   jfernandezavazquez@ejemplo.com.
@@ -35,7 +35,7 @@ const Employees = () => {
         <div className="col-md-4 mb-5">
           <div className="card h-100">
             <div className="card-body">
-              <h2 className="card-title">Lorena García</h2>
+              <h3 className="card-title">Lorena García</h3>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item  mb-2">lejemplo@gmail.com.</li>
                 <li className="list-group-item mb-2">712 345 678.</li>
@@ -54,7 +54,7 @@ const Employees = () => {
         <div className="col-md-4 mb-5">
           <div className="card h-100">
             <div className="card-body">
-              <h2 className="card-title">Jose Antonio Vázquez</h2>
+              <h3 className="card-title">Jose Antonio Vázquez</h3>
 
               <ul className="list-group list-group-flush">
                 <li className="list-group-item  mb-2">javazquez@gmail.com.</li>

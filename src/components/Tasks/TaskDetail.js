@@ -3,7 +3,7 @@ const TaskDetail = () => {
     <main className="container min-vh-100 px-4 px-lg-5">
       <div className="card text-white bg-task my-5 py-4 text-center">
         <div className="card-body">
-          <h3 className="text-white m-0">Detalle tarea</h3>
+          <h2 className="text-white m-0">Detalle tarea</h2>
         </div>
       </div>
 
@@ -11,7 +11,7 @@ const TaskDetail = () => {
         <div className="col-6 ">
           <div className="card h-100 ">
             <div className="card-body">
-              <h2 className="card-title">Tarea 1</h2>
+              <h3 className="card-title">Tarea 1</h3>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item  mb-2">Fecha de recogida</li>
                 <li className="list-group-item mb-2">Fecha de entrega</li>

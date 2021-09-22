@@ -16,7 +16,6 @@ import Home from "./components/Home/Home";
 import FarmForm from "./components/Farms/FarmForm";
 import FarmsList from "./components/Farms/FarmsList";
 
-import Tasks from "./components/Tasks/Tasks";
 import TaskForm from "./components/Tasks/TaskForm";
 
 import Abattoirs from "./components/Abattoirs/Abattoirs";
@@ -25,6 +24,7 @@ import AbattoirForm from "./components/Abattoirs/AbattoirForm";
 import Employees from "./components/Employees/Employees";
 import EmployeeForm from "./components/Employees/EmployeeForm";
 import TaskDetail from "./components/Tasks/TaskDetail";
+import TasksList from "./components/Tasks/TasksList";
 
 function App() {
   return (
@@ -38,7 +38,7 @@ function App() {
           <FarmsList farmData={farmData} />
         </Route>
         <Route path="/tareas">
-          <Tasks taskData={taskData} />
+          <TasksList taskData={taskData} />
         </Route>
         <Route path="/mataderos">
           <Abattoirs />

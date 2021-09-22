@@ -3,7 +3,7 @@ const Farms = (props) => {
     <>
       <div className="card h-100 border-completed">
         <div className="card-body">
-          <h2 className="card-title">{props.farmData.name}</h2>
+          <h3 className="card-title">{props.farmData.name}</h3>
           <ul className="list-group list-group-flush">
             <li className="list-group-item mb-2">
               {" "}

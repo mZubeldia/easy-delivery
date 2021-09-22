@@ -57,7 +57,7 @@
 
  /* new style fonts vars*/
  /* font-family: 'Poppins', sans-serif; */
- --bs-basic-font: system-ui, -apple-system, 'Poppins', sans-serif;;
+ --bs-basic-font: 'Poppins', sans-serif;;
  --bs-title-font: ;
  --bs-subtitle-font: ;
 
@@ -142,21 +142,21 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: calc(2rem + 0.9vw);
+  font-size: calc(2.25rem + 0.9vw);
   font-weight: 900;
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
 h3, .h3 {
-  font-size: calc(2rem + 0.6vw);
+  font-size: calc(1.70rem + 0.6vw);
 }
 @media (min-width: 1200px) {
   h3, .h3 {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 }
 

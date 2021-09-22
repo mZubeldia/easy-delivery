@@ -3,7 +3,7 @@ const TaskDetail = () => {
     <main className="container min-vh-100 px-4 px-lg-5">
       <div className="card text-white bg-task my-5 py-4 text-center">
         <div className="card-body">
-          <h2 className="text-white m-0">Detalle tarea</h2>
+          <h2 className="text-black m-0">Detalle tarea</h2>
         </div>
       </div>
 

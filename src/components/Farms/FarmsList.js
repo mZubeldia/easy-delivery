@@ -12,7 +12,7 @@ const FarmsList = (props) => {
     <main className="container min-vh-100 px-4 px-lg-5 min-h">
       <div className="card text-white bg-completed my-5 py-4 text-center">
         <div className="card-body">
-          <h3 className="text-black m-0">Granjas</h3>
+          <h2 className="text-black m-0">Granjas</h2>
         </div>
       </div>
 

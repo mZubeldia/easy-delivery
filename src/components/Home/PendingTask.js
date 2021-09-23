@@ -9,7 +9,10 @@ const PendingTask = (props) => {
   date = new Date('2013-03-10T02:00:00Z');*/
   return (
     <>
-      <div key={props.pendingTask.id} className="card h-100 border-pending">
+      <div
+        key={props.pendingTask.id}
+        className="card h-100 border-pending card-shadow"
+      >
         <Link className="card-link" to="/detalle-tarea">
           <div className="card-body">
             <h3 className="card-title">Tarea {props.pendingTask.id}</h3>

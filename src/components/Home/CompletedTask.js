@@ -2,7 +2,10 @@ import { Link } from "react-router-dom";
 
 const CompletedTask = (props) => {
   return (
-    <div key={props.completedTask.id} className="card h-100 border-completed">
+    <div
+      key={props.completedTask.id}
+      className="card h-100 border-completed card-shadow "
+    >
       <Link className="card-link" to="/detalle-tarea">
         <div className="card-body">
           <h3 className="card-title">Tarea {props.completedTask.id}</h3>

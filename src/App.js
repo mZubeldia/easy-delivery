@@ -1,5 +1,6 @@
 //styles
 import "./stylesheet/App.css";
+import "./stylesheet/form.css";
 
 import { Route, Switch } from "react-router-dom";
 
@@ -27,6 +28,7 @@ import EmployeesList from "./components/Employees/EmployeesList";
 import TaskDetail from "./components/Tasks/TaskDetail";
 import TasksList from "./components/Tasks/TasksList";
 import TaskForm from "./components/Tasks/TaskForm";
+import NewForm from "./components/NewForm/NewForm";
 
 function App() {
   return (
@@ -59,6 +61,9 @@ function App() {
         </Route>
         <Route path="/nueva-tarea">
           <TaskForm />
+        </Route>
+        <Route exact path="/new-form">
+          <NewForm />
         </Route>
         <Route path="/detalle-tarea">
           <TaskDetail />

@@ -83,10 +83,7 @@
   }
   
   .bg-gra-02 {
-    background: -webkit-gradient(linear, left bottom, right top, from(#fc2c77), to(#6c4079));
-    background: -webkit-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-    background: -moz-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-    background: -o-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
+    
     background-image: radial-gradient(circle at 100% 100%, #dafff1 0, #c8fde9 16.67%, #aeefdd 33.33%, #8cdcce 50%, #67c9c0 66.67%, #44bbb8 83.33%, #1db1b5 100%);  }
 
   .bg-gra-03 {

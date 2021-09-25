@@ -1,0 +1,52 @@
+{
+    "formed": 2021,
+    "active": true,
+    "abattoirs": [
+      {
+        "name": "M. Gil",
+        "id": "45234",
+        "phone": "624 123 564",
+        "address": {
+          "street": "Avenida San Jacinto",
+          "number": "-",
+          "postalCode": "49234",
+          "city": "Madrid",
+          "countryCode": "ESP",
+          "country": "Espana"
+        },
+        "comments": "Acceso muy estrecho"
+
+      },
+      {
+        "name": "M. Orihuela",
+        "id": "89364",
+        "phone": "666 342 564",
+        "address": {
+          "street": "Poligono Estrella",
+          "number": "543",
+          "postalCode": "53467",
+          "city": "Gijon",
+          "countryCode": "ESP",
+          "country": "Espana"
+        },
+        "comments": "-"
+
+      },
+      {
+        "name": "M. Malaga SA",
+        "id": "48756",
+        "phone": "640 432 565",
+        "address": {
+          "street": "Carretera Las Luces",
+          "number": "58",
+          "postalCode": "24543",
+          "city": "Malaga",
+          "countryCode": "ESP",
+          "country": "Espana"
+        },
+        "comments": "-"
+
+      }
+     
+    ]
+}

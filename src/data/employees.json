@@ -7,9 +7,9 @@
         "surname": "Fernandez Garcia", 
         "id": "1ABC",
         "phone": "680 111 222",
-        "personal email": "jmfernandez@gmail.com",
-        "corporate email": "jmfernandez@easydelivery.com",
-        "IBAN": "ES04 1234 00 0000 0000000"
+        "personalEmail": "jmfernandez@gmail.com",
+        "corporateEmail": "jmfernandez@easydelivery.com",
+        "iban": "ES04 1234 00 0000 0000000"
 
       },
       {
@@ -17,9 +17,9 @@
         "surname": "Menendez Perez", 
         "id": "8HGJ",
         "phone": "620 333 444",
-        "personal email": "lauramp@hotmail.com",
-        "corporate email": "lmenendez@easydelivery.com",
-        "IBAN": "ES08 4444 00 0000 0000123"
+        "personalEmail": "lauramp@hotmail.com",
+        "corporateEmail": "lmenendez@easydelivery.com",
+        "iban": "ES08 4444 00 0000 0000123"
 
       },
       {
@@ -27,9 +27,9 @@
         "surname": "Luque Ceballo", 
         "id": "9QWEC",
         "phone": "630 555 345",
-        "personal email": "lluqueceballo@yahoo.com",
-        "corporate email": "lluque@easydelivery.com",
-        "IBAN": "ES23 1234 00 0000 0004444"
+        "personalEmail": "lluqueceballo@yahoo.com",
+        "corporateEmail": "lluque@easydelivery.com",
+        "iban": "ES23 1234 00 0000 0004444"
 
       },
       {
@@ -37,9 +37,9 @@
         "surname": "Vazquez Torres", 
         "id": "5ASD",
         "phone": "637 444 234",
-        "personal email": "antovazquez@gmail.com",
-        "corporate email": "avazquez@easydelivery.com",
-        "IBAN": "ES40 22 00 0000 1230000"
+        "personalEmail": "antovazquez@gmail.com",
+        "corporateEmail": "avazquez@easydelivery.com",
+        "iban": "ES40 22 00 0000 1230000"
 
       }
     ]

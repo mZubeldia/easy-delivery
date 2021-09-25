@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import Farms from "./Farms";
 
 const FarmsList = (props) => {
-  console.log(props.farmData.farms);
   const htmlFarm = props.farmData.farms.map((farmData, index) => (
     <div className="col-md-4 mb-5">
       <Farms farmData={farmData} />

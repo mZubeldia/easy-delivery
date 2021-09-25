@@ -96,6 +96,10 @@
     background: -o-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
     background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
   }
+
+  .bg-gra-04 {
+    background-image: radial-gradient(circle at 95.45% 104.17%, #ffe7fb 0, #ffdaf4 16.67%, #ffc6e9 33.33%, #e8acd9 50%, #cd93cb 66.67%, #b683c2 83.33%, #a279bf 100%);
+  }
   
   /* ==========================================================================
      #SPACING

@@ -7,6 +7,7 @@ import { Route, Switch } from "react-router-dom";
 import taskData from "./data/tasks.json";
 import farmData from "./data/farms.json";
 import employeData from "./data/employees.json";
+import abattoirData from "./data/abattoirs.json";
 
 //components
 import Header from "./components/Header";
@@ -17,15 +18,16 @@ import Home from "./components/Home/Home";
 import FarmForm from "./components/Farms/FarmForm";
 import FarmsList from "./components/Farms/FarmsList";
 
-import TaskForm from "./components/Tasks/TaskForm";
-
 import Abattoirs from "./components/Abattoirs/Abattoirs";
 import AbattoirForm from "./components/Abattoirs/AbattoirForm";
 
 import EmployeeForm from "./components/Employees/EmployeeForm";
+import EmployeesList from "./components/Employees/EmployeesList";
+
 import TaskDetail from "./components/Tasks/TaskDetail";
 import TasksList from "./components/Tasks/TasksList";
-import EmployeesList from "./components/Employees/EmployeesList";
+import TaskForm from "./components/Tasks/TaskForm";
+import AbattoirsList from "./components/Abattoirs/AbattoirsList";
 
 function App() {
   return (
@@ -42,7 +44,7 @@ function App() {
           <TasksList taskData={taskData} />
         </Route>
         <Route path="/mataderos">
-          <Abattoirs />
+          <AbattoirsList abattoirData={abattoirData} />
         </Route>
         <Route path="/empleados">
           <EmployeesList employeeData={employeData} />

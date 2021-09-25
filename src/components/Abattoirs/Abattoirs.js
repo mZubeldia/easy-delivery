@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Abattoirs = (props) => {
   return (
     <div className="card h-100 border-pending">

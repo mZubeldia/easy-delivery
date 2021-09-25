@@ -18,7 +18,7 @@ import Home from "./components/Home/Home";
 import FarmForm from "./components/Farms/FarmForm";
 import FarmsList from "./components/Farms/FarmsList";
 
-import Abattoirs from "./components/Abattoirs/Abattoirs";
+import AbattoirsList from "./components/Abattoirs/AbattoirsList";
 import AbattoirForm from "./components/Abattoirs/AbattoirForm";
 
 import EmployeeForm from "./components/Employees/EmployeeForm";
@@ -27,7 +27,6 @@ import EmployeesList from "./components/Employees/EmployeesList";
 import TaskDetail from "./components/Tasks/TaskDetail";
 import TasksList from "./components/Tasks/TasksList";
 import TaskForm from "./components/Tasks/TaskForm";
-import AbattoirsList from "./components/Abattoirs/AbattoirsList";
 
 function App() {
   return (

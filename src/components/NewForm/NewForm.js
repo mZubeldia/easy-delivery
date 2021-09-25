@@ -6,25 +6,26 @@ const NewForm = () => {
           <div className="card card-4">
             <div className="card-body">
               <h2 className="text-black mb-4">Nuevo empleado</h2>
-              <form method="POST">
+
+              <form id="contactForm" method="POST">
                 <div className="row row-space">
                   <div className="col-2">
                     <div className="input-group">
-                      <label className="label">Nombre</label>
-                      <input
-                        className="input--style-4"
-                        type="text"
-                        name="first_name"
-                      />
+                      <label className="label" for="name">
+                        Nombre
+                      </label>
+                      <input className="input--style-4" type="text" id="name" />
                     </div>
                   </div>
                   <div className="col-2">
                     <div className="input-group">
-                      <label className="label">Apellido</label>
+                      <label className="label" for="surname">
+                        Apellido
+                      </label>
                       <input
                         className="input--style-4"
                         type="text"
-                        name="last_name"
+                        id="surmane"
                       />
                     </div>
                   </div>
@@ -33,21 +34,25 @@ const NewForm = () => {
                 <div className="row row-space">
                   <div className="col-2">
                     <div className="input-group">
-                      <label className="label">Email</label>
+                      <label className="label" for="email">
+                        Email
+                      </label>
                       <input
                         className="input--style-4"
                         type="email"
-                        name="email"
+                        id="email"
                       />
                     </div>
                   </div>
                   <div className="col-2">
                     <div className="input-group">
-                      <label className="label">Telefono</label>
+                      <label className="label" for="phone">
+                        Telefono
+                      </label>
                       <input
                         className="input--style-4"
-                        type="text"
-                        name="phone"
+                        type="phone"
+                        id="phone"
                       />
                     </div>
                   </div>
@@ -55,11 +60,13 @@ const NewForm = () => {
                 <div className="row row-space">
                   <div className="col-2">
                     <div className="input-group">
-                      <label className="label">Numero de cuenta</label>
+                      <label className="label" for="banknumber">
+                        Numero de cuenta
+                      </label>
                       <input
                         className="input--style-4"
-                        type="email"
-                        name="email"
+                        type="text"
+                        id="banknumber"
                       />
                     </div>
                   </div>
@@ -67,12 +74,14 @@ const NewForm = () => {
                 <div className="row row-space">
                   <div className="col">
                     <div className="input-group">
-                      <label className="label">Comentarios</label>
+                      <label className="label" for="info">
+                        Comentarios
+                      </label>
                       <textarea
                         style={{ height: "10rem" }}
                         className="input--style-4"
                         type="text"
-                        name="phone"
+                        id="info"
                       />
                     </div>
                   </div>

@@ -88,7 +88,7 @@ const NewForm = () => {
                 </div>
                 <div className="p-t-15">
                   <button
-                    className="btn btn--radius-2 btn--employee"
+                    className="btn-form btn--radius-2 btn--employee"
                     type="submit"
                   >
                     Submit

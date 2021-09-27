@@ -1,7 +1,7 @@
 const NewForm = () => {
   return (
     <>
-      <div className="page-wrapper bg-gra-02 p-t-100 p-b-100 ">
+      <div className="page-wrapper bg-gra-04 p-t-100 p-b-100 ">
         <div className="wrapper wrapper--w680">
           <div className="card card-4">
             <div className="card-body">

@@ -1,119 +1,85 @@
 const FarmForm = () => {
   return (
-    <main className="container px-5 my-5">
-      <div className="card text-white bg-completed my-5 py-4 text-center">
-        <div className="card-body">
-          <h2 className="text-black m-0">Nueva granja</h2>
+    <main className="page-wrapper bg-gra-02 p-t-100 p-b-100 ">
+      <div className="wrapper wrapper--w680">
+        <div className="card card-4">
+          <div className="card-body">
+            <h2 className="text-black mb-4">Nueva granja</h2>
+
+            <form id="contactForm" method="POST">
+              <div className="row row-space">
+                <div className="col-2">
+                  <div className="input-group">
+                    <label className="label" for="name">
+                      Nombre
+                    </label>
+                    <input className="input--style-4" type="text" id="name" />
+                  </div>
+                </div>
+                <div className="col-2">
+                  <div className="input-group">
+                    <label className="label" for="address">
+                      Direccion
+                    </label>
+                    <input
+                      className="input--style-4"
+                      type="text"
+                      id="address"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="row row-space">
+                <div className="col-2">
+                  <div className="input-group">
+                    <label className="label" for="location">
+                      Geolocalizacion
+                    </label>
+                    <input
+                      className="input--style-4"
+                      type="email"
+                      id="location"
+                    />
+                  </div>
+                </div>
+                <div className="col-2">
+                  <div className="input-group">
+                    <label className="label" for="phone">
+                      Telefono
+                    </label>
+                    <input className="input--style-4" type="phone" id="phone" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="row row-space">
+                <div className="col">
+                  <div className="input-group">
+                    <label className="label" for="info">
+                      Comentarios
+                    </label>
+                    <textarea
+                      style={{ height: "10rem" }}
+                      className="input--style-4"
+                      type="text"
+                      id="info"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="p-t-15">
+                <button
+                  className="btn-form btn--radius-2 btn--employee "
+                  type="submit"
+                >
+                  Crear
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
-
-      <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-        <div className="mb-3">
-          <label className="form-label" for="nombre">
-            Nombre
-          </label>
-          <input
-            className="form-control"
-            id="nombre"
-            type="text"
-            placeholder="Nombre"
-            data-sb-validations="required"
-          />
-          <div className="invalid-feedback" data-sb-feedback="nombre:required">
-            Nombre is required.
-          </div>
-        </div>
-        <div className="mb-3">
-          <label className="form-label" for="geolocalizacion">
-            Direccion
-          </label>
-          <input
-            className="form-control"
-            id="geolocalizacion"
-            type="text"
-            placeholder="Geolocalizacion"
-            data-sb-validations="required"
-          />
-          <div
-            className="invalid-feedback"
-            data-sb-feedback="geolocalizacion:required"
-          >
-            Direccion is required.
-          </div>
-        </div>
-        <div className="mb-3">
-          <label className="form-label" for="geolocalizacion">
-            Geolocalizacion
-          </label>
-          <input
-            className="form-control"
-            id="geolocalizacion"
-            type="text"
-            placeholder="Geolocalizacion"
-            data-sb-validations="required"
-          />
-          <div
-            className="invalid-feedback"
-            data-sb-feedback="geolocalizacion:required"
-          >
-            Geolocalizacion is required.
-          </div>
-        </div>
-        <div className="mb-3">
-          <label className="form-label" for="telefono">
-            Telefono
-          </label>
-          <input
-            className="form-control"
-            id="telefono"
-            type="text"
-            placeholder="Telefono"
-            data-sb-validations="required"
-          />
-          <div
-            className="invalid-feedback"
-            data-sb-feedback="telefono:required"
-          >
-            Telefono is required.
-          </div>
-        </div>
-        <div className="mb-3">
-          <label className="form-label" for="comentarios">
-            Comentarios
-          </label>
-          <textarea
-            className="form-control"
-            id="comentarios"
-            type="text"
-            placeholder="Comentarios"
-            style={{ height: "10rem" }}
-            data-sb-validations=""
-          ></textarea>
-        </div>
-        <div className="d-none" id="submitSuccessMessage">
-          <div className="text-center mb-3">
-            <div className="fw-bolder">Form submission successful!</div>
-            <p>To activate this form, sign up at</p>
-            <a href="https://startbootstrap.com/solution/contact-forms">
-              https://startbootstrap.com/solution/contact-forms
-            </a>
-          </div>
-        </div>
-        <div className="d-none" id="submitErrorMessage">
-          <div className="text-center text-danger mb-3">
-            Error sending message!
-          </div>
-        </div>
-        <div className="d-grid">
-          <button
-            className="btn btn-completed btn-lg"
-            id="submitButton"
-            type="submit"
-          >
-            Crear granja
-          </button>
-        </div>
-      </form>
     </main>
   );
 };

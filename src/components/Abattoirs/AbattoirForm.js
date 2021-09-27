@@ -1,6 +1,6 @@
 const AbattoirForm = () => {
   return (
-    <div className="page-wrapper bg-gra-04 p-t-100 p-b-100 ">
+    <main className="page-wrapper bg-gra-04 p-t-100 p-b-100 ">
       <div className="wrapper wrapper--w680">
         <div className="card card-4">
           <div className="card-body">
@@ -73,14 +73,14 @@ const AbattoirForm = () => {
                   className="btn-form btn--radius-2 btn--farm "
                   type="submit"
                 >
-                  Submit
+                  Crear
                 </button>
               </div>
             </form>
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

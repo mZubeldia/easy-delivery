@@ -82,7 +82,7 @@ const EmployeeForm = () => {
                   className="btn-form btn--radius-2 btn--employee"
                   type="submit"
                 >
-                  Submit
+                  Crear
                 </button>
               </div>
             </form>

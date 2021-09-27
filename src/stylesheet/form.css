@@ -213,6 +213,18 @@
   }
   .btn--employee:hover {
     color: black;
+    background-color: #4e756f;
+    ;
+    
+  }
+
+  .btn--farm {
+    background-color: var(--bs-warning-pink);
+    border-color: #a76b98;
+  }
+  .btn--farm:hover {
+    color: black;
+    background-color: #a76b98;
     
   }
   

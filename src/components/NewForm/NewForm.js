@@ -5,7 +5,7 @@ const NewForm = () => {
         <div className="wrapper wrapper--w680">
           <div className="card card-4">
             <div className="card-body">
-              <h2 className="text-black mb-4">Nuevo empleado</h2>
+              <h2 className="text-black mb-4">Nueva granja</h2>
 
               <form id="contactForm" method="POST">
                 <div className="row row-space">
@@ -19,13 +19,13 @@ const NewForm = () => {
                   </div>
                   <div className="col-2">
                     <div className="input-group">
-                      <label className="label" for="surname">
-                        Apellido
+                      <label className="label" for="address">
+                        Direccion
                       </label>
                       <input
                         className="input--style-4"
                         type="text"
-                        id="surmane"
+                        id="address"
                       />
                     </div>
                   </div>
@@ -34,13 +34,13 @@ const NewForm = () => {
                 <div className="row row-space">
                   <div className="col-2">
                     <div className="input-group">
-                      <label className="label" for="email">
-                        Email
+                      <label className="label" for="location">
+                        Geolocation
                       </label>
                       <input
                         className="input--style-4"
                         type="email"
-                        id="email"
+                        id="location"
                       />
                     </div>
                   </div>
@@ -57,20 +57,7 @@ const NewForm = () => {
                     </div>
                   </div>
                 </div>
-                <div className="row row-space">
-                  <div className="col-2">
-                    <div className="input-group">
-                      <label className="label" for="banknumber">
-                        Numero de cuenta
-                      </label>
-                      <input
-                        className="input--style-4"
-                        type="text"
-                        id="banknumber"
-                      />
-                    </div>
-                  </div>
-                </div>
+
                 <div className="row row-space">
                   <div className="col">
                     <div className="input-group">

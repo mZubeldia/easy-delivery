@@ -2,132 +2,184 @@ import { Form } from "react-bootstrap";
 
 const TaskForm = () => {
   return (
-    <main className="container px-5 my-5">
-      <div className="card text-white bg-task my-5 py-4 text-center">
-        <div className="card-body">
-          <h3 className="text-black m-0">Nueva tarea</h3>
+    <main className="page-wrapper bg-gra-05 p-t-100 p-b-100 ">
+      <div className="wrapper wrapper--w680">
+        <div className="card-form card-4">
+          <div className="card-body">
+            <h2 className="text-black mb-4">Nueva tarea</h2>
+
+            <form id="contactForm" method="POST">
+              <div className="row row-space">
+                <div className="col-2">
+                  <Form.Label>Granja</Form.Label>
+                  <Form.Select aria-label="Default select example">
+                    <option>Granjas</option>
+                    <option value="Tres Arroyos">Tres Arroyos</option>
+                    <option value="El Huerto">El Huerto</option>
+                    <option value="Granja el sol">Granja el sol</option>
+                    <option value="Granja La Serena">Granja La Serena</option>
+                  </Form.Select>
+                </div>
+
+                <div className="col-2">
+                  <Form.Label>Matadero</Form.Label>
+                  <Form.Select aria-label="Default select example">
+                    <option>Mataderos</option>
+                    <option value="M. Gil">M. Gil</option>
+                    <option value="M. Orihuela">M. Orihuela</option>
+                    <option value="M. Malaga SA">M. Malaga SA</option>
+                  </Form.Select>
+                </div>
+              </div>
+
+              <div className="row row-space">
+                <div className="col-2">
+                  <div className="input-group-form ">
+                    <label className="label" for="employee">
+                      Empleado
+                    </label>
+                    <div className="rs-select2-form js-select-simple select--no-search ">
+                      <select
+                        name="employee"
+                        className="select2-hidden-accessible input-style-4"
+                        aria-hidden="true"
+                        type="text"
+                        id="employee"
+                      >
+                        <option disabled="disabled" selected="selected">
+                          Empleados
+                        </option>
+                        <option value="J. M. Fernandez Garcia">
+                          J. M. Fernandez Garcia
+                        </option>
+                        <option value="Laura Menenez Perez">
+                          Laura Menenez Perez
+                        </option>
+                        <option value="Lorena Luque Ceballo">
+                          Lorena Luque Ceballo
+                        </option>
+                        <option value="Antonio Vazquez Torres">
+                          Antonio Vazquez Torres
+                        </option>
+                      </select>
+
+                      <div className="select-dropdown"></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-2">
+                  <div className="input-group-form ">
+                    <label className="label" for="truck">
+                      Camion
+                    </label>
+                    <div className="rs-select2-form js-select-simple select--no-search ">
+                      <select
+                        name="truck"
+                        className="select2-hidden-accessible input-style-4"
+                        aria-hidden="true"
+                        type="text"
+                        id="truck"
+                      >
+                        <option disabled="disabled" selected="selected">
+                          Camiones
+                        </option>
+                        <option value="rigid">Rigido</option>
+                        <option value="articulado">Articulado</option>
+                        <option value="trailer">Trailer</option>
+                      </select>
+
+                      <div className="select-dropdown"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="row row-space">
+                <div className="col-2">
+                  <div className="input-group-form ">
+                    <div className="input-group">
+                      <label className="label" for="pigsNumber">
+                        N. Cerdos
+                      </label>
+                      <input
+                        className="input--style-4"
+                        type="number"
+                        id="pigsNumber"
+                        name="pigsNumber"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-2">
+                  <div className="input-group-form ">
+                    <label className="label" for="pigsType">
+                      Tipo cerdos
+                    </label>
+                    <div className="rs-select2-form js-select-simple select--no-search ">
+                      <select
+                        name="pigsType"
+                        className="select2-hidden-accessible input-style-4"
+                        aria-hidden="true"
+                        type="text"
+                        id="pigsType"
+                      >
+                        <option disabled="disabled" selected="selected">
+                          Cerdos
+                        </option>
+                        <option value="white">Blanco</option>
+                        <option value="iberic">Iberico</option>
+                        <option value="duroc">Duroc</option>
+                      </select>
+
+                      <div className="select-dropdown"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="row row-space">
+                <div className="col-md-6">
+                  <Form.Group controlId="dob">
+                    <Form.Label>Fecha recogida granja</Form.Label>
+                    <Form.Control type="date" name="dob" placeholder="Fecha" />
+                  </Form.Group>
+                </div>
+
+                <div className="col-md-6">
+                  <Form.Group controlId="dob">
+                    <Form.Label>Fecha entrega matadero</Form.Label>
+                    <Form.Control type="date" name="dob" placeholder="Fecha" />
+                  </Form.Group>
+                </div>
+              </div>
+
+              <div className="row row-space">
+                <div className="col">
+                  <div className="input-group">
+                    <label className="label" for="info">
+                      Comentarios
+                    </label>
+                    <textarea
+                      style={{ height: "10rem" }}
+                      className="input--style-4"
+                      type="text"
+                      id="info"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="p-t-15">
+                <button
+                  className="btn-form btn--radius-2 btn--task"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
-
-      <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-        <div className="mb-3">
-          <label className="form-label" for="granja">
-            Granja
-          </label>
-          <select className="form-select" id="granja" aria-label="Granja">
-            <option value="Granjas">Granjas</option>
-            <option value="Tres Arroyos">Tres Arroyos</option>
-            <option value="El Huerto">El Huerto</option>
-            <option value="Granja el sol">Granja el sol</option>
-            <option value="Granja La Serena">Granja La Serena</option>
-          </select>
-        </div>
-        <div className="mb-3">
-          <label className="form-label" for="camion">
-            Camion
-          </label>
-          <select className="form-select" id="camion" aria-label="Camion">
-            <option value="Tipo de camion">Tipo de camion</option>
-            <option value="Rigido">Rigido</option>
-            <option value="Articulado">Articulado</option>
-            <option value="Remolque">Remolque</option>
-            <option value="Frigorifico">Frigorifico</option>
-          </select>
-        </div>
-        <div className="mb-3">
-          <label className="form-label" for="matadero">
-            Matadero
-          </label>
-          <select className="form-select" id="matadero" aria-label="Matadero">
-            <option value="Mataderos">Mataderos</option>
-            <option value="M. Del Sar">M. Del Sar</option>
-            <option value="M. de Berriz">M. de Berriz</option>
-            <option value="M. Garcia">M. Garcia</option>
-            <option value="M. Bar">M. Bar</option>
-          </select>
-        </div>
-        <div className="mb-3">
-          <label className="form-label" for="empleado">
-            Empleado
-          </label>
-          <select className="form-select" id="empleado" aria-label="Empleado">
-            <option value="Empleados">Empleados</option>
-            <option value="Juan Perez">Juan Perez</option>
-            <option value="Antonio Fernandez">Antonio Fernandez</option>
-            <option value="Carlos Garcia">Carlos Garcia</option>
-          </select>
-        </div>
-        <div className="mb-3">
-          <label className="form-label" for="nCerdos">
-            N. Cerdos
-          </label>
-          <input
-            className="form-control"
-            id="nCerdos"
-            type="text"
-            placeholder="N. Cerdos"
-            data-sb-validations="required"
-          />
-          <div className="invalid-feedback" data-sb-feedback="nCerdos:required">
-            N. Cerdos is required.
-          </div>
-        </div>
-        <div className="mb-3">
-          <label className="form-label" for="tipoDeCerdo">
-            Tipo de cerdo
-          </label>
-          <select
-            className="form-select"
-            id="tipoDeCerdo"
-            aria-label="Tipo de cerdo"
-          >
-            <option value="Cerdos">Cerdos</option>
-            <option value="Iberico">Iberico</option>
-            <option value="Porcinos Duroc">Porcinos Duroc</option>
-            <option value="Porcinos Large White">Porcinos Large White</option>
-            <option value="Negro">Negro</option>
-          </select>
-        </div>
-        <div className="row mt-3 mb-5">
-          <div className="col-md-6">
-            <Form.Group controlId="dob">
-              <Form.Label>Fecha recogida granja</Form.Label>
-              <Form.Control type="date" name="dob" placeholder="Fecha" />
-            </Form.Group>
-          </div>
-
-          <div className="col-md-6">
-            <Form.Group controlId="dob">
-              <Form.Label>Fecha entrega matadero</Form.Label>
-              <Form.Control type="date" name="dob" placeholder="Fecha" />
-            </Form.Group>
-          </div>
-        </div>
-
-        <div className="d-none" id="submitSuccessMessage">
-          <div className="text-center mb-3">
-            <div className="fw-bolder">Form submission successful!</div>
-            <p>To activate this form, sign up at</p>
-            <a href="https://startbootstrap.com/solution/contact-forms">
-              https://startbootstrap.com/solution/contact-forms
-            </a>
-          </div>
-        </div>
-        <div className="d-none" id="submitErrorMessage">
-          <div className="text-center text-danger mb-3">
-            Error sending message!
-          </div>
-        </div>
-        <div className="d-grid">
-          <button
-            className="btn btn-task btn-lg"
-            id="submitButton"
-            type="submit"
-          >
-            Crear tarea
-          </button>
-        </div>
-      </form>
     </main>
   );
 };

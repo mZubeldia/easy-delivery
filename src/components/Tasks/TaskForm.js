@@ -116,7 +116,7 @@ const TaskForm = () => {
                   <Form.Group controlId="dob">
                     <Form.Label>Fecha recogida granja</Form.Label>
                     <Form.Control
-                      className="task-select "
+                      className="input-select "
                       type="date"
                       name="dob"
                       placeholder="Fecha"
@@ -128,7 +128,7 @@ const TaskForm = () => {
                   <Form.Group controlId="dob">
                     <Form.Label>Fecha entrega matadero</Form.Label>
                     <Form.Control
-                      className="task-select "
+                      className="input-select "
                       type="date"
                       name="dob"
                       placeholder="Fecha"

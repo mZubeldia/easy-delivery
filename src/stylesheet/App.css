@@ -2425,7 +2425,7 @@ textarea.form-control-lg {
   height: 1.5em;
   border-radius: 0.25rem;
 }
-
+/*
 .form-select {
   display: block;
   width: 100%;
@@ -2482,7 +2482,7 @@ textarea.form-control-lg {
   padding-left: 1rem;
   font-size: 1.25rem;
 }
-
+*/
 .form-check {
   display: block;
   min-height: 1.5rem;

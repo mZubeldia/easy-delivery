@@ -5,7 +5,7 @@ const Header = () => {
     <header className="App-header">
       <nav className="navbar navbar-expand-lg navbar-dark bg-black2 ">
         <div className="container px-5">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/home">
             <h1 className="brand-title">Easy Delivery</h1>
           </a>
           <button

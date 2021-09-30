@@ -10,9 +10,12 @@ const TaskForm = () => {
 
             <form id="contactForm" method="POST">
               <div className="row row-space">
-                <div className="col-2">
+                <div className="col-2 mb-3">
                   <Form.Label>Granja</Form.Label>
-                  <Form.Select aria-label="Default select example">
+                  <Form.Select
+                    className="task-select "
+                    aria-label="Default select example"
+                  >
                     <option>Granjas</option>
                     <option value="Tres Arroyos">Tres Arroyos</option>
                     <option value="El Huerto">El Huerto</option>
@@ -21,9 +24,12 @@ const TaskForm = () => {
                   </Form.Select>
                 </div>
 
-                <div className="col-2">
+                <div className="col-2 mb-3">
                   <Form.Label>Matadero</Form.Label>
-                  <Form.Select aria-label="Default select example">
+                  <Form.Select
+                    className="task-select"
+                    aria-label="Default select example"
+                  >
                     <option>Mataderos</option>
                     <option value="M. Gil">M. Gil</option>
                     <option value="M. Orihuela">M. Orihuela</option>
@@ -33,9 +39,12 @@ const TaskForm = () => {
               </div>
 
               <div className="row row-space">
-                <div className="col-2">
+                <div className="col-2 mb-3">
                   <Form.Label>Empleado</Form.Label>
-                  <Form.Select aria-label="Default select example">
+                  <Form.Select
+                    className="task-select "
+                    aria-label="Default select example"
+                  >
                     <option disabled="disabled" selected="selected">
                       Empleados
                     </option>
@@ -54,9 +63,12 @@ const TaskForm = () => {
                   </Form.Select>
                 </div>
 
-                <div className="col-2">
+                <div className="col-2 mb-3">
                   <Form.Label>Camion</Form.Label>
-                  <Form.Select aria-label="Default select example">
+                  <Form.Select
+                    className="task-select "
+                    aria-label="Default select example"
+                  >
                     <option disabled="disabled" selected="selected">
                       Camiones
                     </option>
@@ -68,7 +80,7 @@ const TaskForm = () => {
               </div>
 
               <div className="row row-space">
-                <div className="col-2">
+                <div className="col-2 ">
                   <div className="input-group-form ">
                     <div className="input-group">
                       <label className="label" for="pigsNumber">
@@ -76,7 +88,7 @@ const TaskForm = () => {
                       </label>
                       <input
                         className="input--style-4"
-                        type="number"
+                        type="text"
                         id="pigsNumber"
                         name="pigsNumber"
                       />
@@ -84,9 +96,12 @@ const TaskForm = () => {
                   </div>
                 </div>
 
-                <div className="col-2">
+                <div className="col-2 mb-3">
                   <Form.Label>Tipo cerdos</Form.Label>
-                  <Form.Select aria-label="Default select example">
+                  <Form.Select
+                    className="task-select "
+                    aria-label="Default select example"
+                  >
                     <option disabled="disabled" selected="selected">
                       Cerdos
                     </option>
@@ -97,17 +112,27 @@ const TaskForm = () => {
                 </div>
               </div>
               <div className="row row-space">
-                <div className="col-md-6">
+                <div className="col-md-6 mb-3">
                   <Form.Group controlId="dob">
                     <Form.Label>Fecha recogida granja</Form.Label>
-                    <Form.Control type="date" name="dob" placeholder="Fecha" />
+                    <Form.Control
+                      className="task-select "
+                      type="date"
+                      name="dob"
+                      placeholder="Fecha"
+                    />
                   </Form.Group>
                 </div>
 
-                <div className="col-md-6">
+                <div className="col-md-6 mb-3">
                   <Form.Group controlId="dob">
                     <Form.Label>Fecha entrega matadero</Form.Label>
-                    <Form.Control type="date" name="dob" placeholder="Fecha" />
+                    <Form.Control
+                      className="task-select "
+                      type="date"
+                      name="dob"
+                      placeholder="Fecha"
+                    />
                   </Form.Group>
                 </div>
               </div>

@@ -604,4 +604,14 @@
 
   /* SELECT */
 
-  
+  .task-select{
+    line-height: 50px;
+    background: #fafafa;
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666;
+    transition: all 0.4s ease;
+    cursor: pointer  
+  }

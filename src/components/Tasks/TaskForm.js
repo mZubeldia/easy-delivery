@@ -157,7 +157,7 @@ const TaskForm = () => {
                   className="btn-form btn--radius-2 btn--task"
                   type="submit"
                 >
-                  Submit
+                  Crear
                 </button>
               </div>
             </form>

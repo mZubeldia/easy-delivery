@@ -34,63 +34,36 @@ const TaskForm = () => {
 
               <div className="row row-space">
                 <div className="col-2">
-                  <div className="input-group-form ">
-                    <label className="label" for="employee">
-                      Empleado
-                    </label>
-                    <div className="rs-select2-form js-select-simple select--no-search ">
-                      <select
-                        name="employee"
-                        className="select2-hidden-accessible input-style-4"
-                        aria-hidden="true"
-                        type="text"
-                        id="employee"
-                      >
-                        <option disabled="disabled" selected="selected">
-                          Empleados
-                        </option>
-                        <option value="J. M. Fernandez Garcia">
-                          J. M. Fernandez Garcia
-                        </option>
-                        <option value="Laura Menenez Perez">
-                          Laura Menenez Perez
-                        </option>
-                        <option value="Lorena Luque Ceballo">
-                          Lorena Luque Ceballo
-                        </option>
-                        <option value="Antonio Vazquez Torres">
-                          Antonio Vazquez Torres
-                        </option>
-                      </select>
-
-                      <div className="select-dropdown"></div>
-                    </div>
-                  </div>
+                  <Form.Label>Empleado</Form.Label>
+                  <Form.Select aria-label="Default select example">
+                    <option disabled="disabled" selected="selected">
+                      Empleados
+                    </option>
+                    <option value="J. M. Fernandez Garcia">
+                      J. M. Fernandez Garcia
+                    </option>
+                    <option value="Laura Menenez Perez">
+                      Laura Menenez Perez
+                    </option>
+                    <option value="Lorena Luque Ceballo">
+                      Lorena Luque Ceballo
+                    </option>
+                    <option value="Antonio Vazquez Torres">
+                      Antonio Vazquez Torres
+                    </option>
+                  </Form.Select>
                 </div>
-                <div className="col-2">
-                  <div className="input-group-form ">
-                    <label className="label" for="truck">
-                      Camion
-                    </label>
-                    <div className="rs-select2-form js-select-simple select--no-search ">
-                      <select
-                        name="truck"
-                        className="select2-hidden-accessible input-style-4"
-                        aria-hidden="true"
-                        type="text"
-                        id="truck"
-                      >
-                        <option disabled="disabled" selected="selected">
-                          Camiones
-                        </option>
-                        <option value="rigid">Rigido</option>
-                        <option value="articulado">Articulado</option>
-                        <option value="trailer">Trailer</option>
-                      </select>
 
-                      <div className="select-dropdown"></div>
-                    </div>
-                  </div>
+                <div className="col-2">
+                  <Form.Label>Camion</Form.Label>
+                  <Form.Select aria-label="Default select example">
+                    <option disabled="disabled" selected="selected">
+                      Camiones
+                    </option>
+                    <option value="rigid">Rigido</option>
+                    <option value="articulado">Articulado</option>
+                    <option value="trailer">Trailer</option>
+                  </Form.Select>
                 </div>
               </div>
 
@@ -112,29 +85,15 @@ const TaskForm = () => {
                 </div>
 
                 <div className="col-2">
-                  <div className="input-group-form ">
-                    <label className="label" for="pigsType">
-                      Tipo cerdos
-                    </label>
-                    <div className="rs-select2-form js-select-simple select--no-search ">
-                      <select
-                        name="pigsType"
-                        className="select2-hidden-accessible input-style-4"
-                        aria-hidden="true"
-                        type="text"
-                        id="pigsType"
-                      >
-                        <option disabled="disabled" selected="selected">
-                          Cerdos
-                        </option>
-                        <option value="white">Blanco</option>
-                        <option value="iberic">Iberico</option>
-                        <option value="duroc">Duroc</option>
-                      </select>
-
-                      <div className="select-dropdown"></div>
-                    </div>
-                  </div>
+                  <Form.Label>Tipo cerdos</Form.Label>
+                  <Form.Select aria-label="Default select example">
+                    <option disabled="disabled" selected="selected">
+                      Cerdos
+                    </option>
+                    <option value="white">Blanco</option>
+                    <option value="iberic">Iberico</option>
+                    <option value="duroc">Duroc</option>
+                  </Form.Select>
                 </div>
               </div>
               <div className="row row-space">

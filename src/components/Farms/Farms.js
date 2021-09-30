@@ -26,11 +26,6 @@ const Farms = (props) => {
             </li>
           </ul>
         </div>
-        <div className="card-footer">
-          <a className="btn btn-secondary btn-sm" href="#!">
-            Editar
-          </a>
-        </div>
       </div>
     </>
   );

@@ -5,7 +5,7 @@ const Header = () => {
     <header className="App-header">
       <nav className="navbar navbar-expand-lg navbar-dark bg-black2 ">
         <div className="container px-5">
-          <a className="navbar-brand" href="/home">
+          <a className="navbar-brand" href="/">
             <div class="header-logo">
               <svg
                 width="80"

@@ -34,7 +34,7 @@ function App() {
     <>
       <Header />
       <Switch>
-        <Route path="/home">
+        <Route exact path="/">
           <Home taskData={taskData} />
         </Route>
         <Route path="/granjas">

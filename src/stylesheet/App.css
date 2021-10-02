@@ -11435,3 +11435,24 @@ textarea.form-control-lg {
 */
 
 
+/* SVG PIG NOSE */
+
+.header-logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+#pig-nose {
+}
+#pig-nose:hover{
+}
+
+#nostril-left{
+
+}
+
+#nostril-right{
+
+}

@@ -4597,9 +4597,7 @@ textarea.form-control-lg {
   padding: 1rem 1rem;
 }
 
-.brand-title{
-  font-size: 2rem;
-}
+
 
 .card-title {
   margin-bottom: 0.5rem;
@@ -11436,6 +11434,24 @@ textarea.form-control-lg {
 
 
 /* SVG PIG NOSE */
+/* 
+@media (min-width: 576px) {
+  .container-sm, .container {
+    max-width: 540px;
+*/
+
+.brand-title {
+  font-size: 2rem;
+  display: none;
+  
+}
+
+@media only screen and (min-width: 881px) {
+  .brand-title {
+      display: block;
+   }
+ }
+
 
 .header-logo{
   display: flex;

@@ -11411,34 +11411,11 @@ textarea.form-control-lg {
   
   transition: all 0.3s;
 }
-/*
-.plus{
-  color: white;
-  position: absolute;
-  top: 0;
-  display: block;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  line-height: 55px;
-  font-size: 38px;
-  font-family: 'Roboto';
-  font-weight: 300;
-  animation: plus-out 0.3s;
-  transition: all 0.3s;
-}
-*/
+
 
 
 /* SVG PIG NOSE */
-/* 
-@media (min-width: 576px) {
-  .container-sm, .container {
-    max-width: 540px;
-*/
+
 
 .brand-title {
   font-size: 2rem;
@@ -11518,4 +11495,14 @@ transform-box: fill-box;
   }
 }
 
+.footer-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#pig-nose-footer{
+ 
+}
 

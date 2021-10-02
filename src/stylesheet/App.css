@@ -4514,7 +4514,7 @@ textarea.form-control-lg {
   color: #fff;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: var(--bs-important);
+  color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
@@ -4527,7 +4527,7 @@ textarea.form-control-lg {
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: var(--bs-important);
+  color: #fff;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
@@ -11460,15 +11460,62 @@ textarea.form-control-lg {
   
 }
 
-#pig-nose {
+#pig-nose:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
 }
-#pig-nose:hover{
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
+
 
 #nostril-left{
+  animation: wheel 2s linear ;
+  animation-iteration-count: 3;
+  
+  transform-origin: center;
+  transform-box: fill-box;
+  }
+  @keyframes wheel{
+    from{
+      transform: rotateZ(0)
+    }
+    to{
+      transform: rotateZ(360deg)
+    }}
 
-}
 
 #nostril-right{
+animation: wheel 2s linear ;
+animation-iteration-count: 3;
 
+transform-origin: center;
+transform-box: fill-box;
 }
+@keyframes wheel{
+  from{
+    transform: rotateZ(360deg)
+  }
+  to{
+    transform: rotateZ(0deg)
+  }
+}
+
+

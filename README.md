@@ -19,24 +19,17 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/mZubeldia/easy-delivery">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Easy Delivery</h3>
 
   <p align="center">
-    This repo is a simple web application to create specific tasks, items and employees profiles to asign the created tasks to.
+    This repo is a web application to create specific tasks, items and employees' profiles to asign them the created tasks.
   It is still building :)
     <br />
     <a href="https://github.com/mZubeldia/easy-delivery"><strong>Explore the docs »</strong></a>
@@ -67,12 +60,12 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+   <!-- <li><a href="#usage">Usage</a></li> -->
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+   <!-- <li><a href="#acknowledgements">Acknowledgements</a></li> -->
   </ol>
 </details>
 
@@ -80,20 +73,19 @@
 
 ## About The Project
 
-Repo still in progress.
-Shortly we will provide with a full description, in the meantime this is the readme template from (https://github.com/othneildrew/Best-README-Template)
+Repo still in progress :).
+This repo is a simple web application to create specific tasks, items and employees' profiles to asign them the created tasks.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
 
 ### Built With
 
-- Bootstrap templates from [Start Bootstrap](https://startbootstrap.com/)
 - [ReactJS](https://reactjs.org/)
-- []()
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- Bootstrap templates from [Start Bootstrap](https://startbootstrap.com/)
+
 
 <!-- GETTING STARTED -->
 
@@ -127,7 +119,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-````
 
 ### Installation
 
@@ -142,13 +133,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
    ```
 
 <!-- USAGE EXAMPLES -->
-
+<!--
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
-
+-->
 <!-- ROADMAP -->
 
 ## Roadmap
@@ -177,21 +168,21 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+mZubeldia - [@twitter_handle](https://twitter.com/mZubeldia_) - mzubeldia09@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/github_username/repo_name](https://github.com/mZubeldia/easy-delivery/projects/1)
 
 <!-- ACKNOWLEDGEMENTS -->
-
+<!--
 ## Acknowledgements
 
 - []()
 - []()
 - []()
-
+-->
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
+<!-- 
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
 [contributors-url]: https://github.com/github_username/repo/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
@@ -204,3 +195,5 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/github_username
+
+-->

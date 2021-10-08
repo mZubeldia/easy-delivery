@@ -168,7 +168,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-mZubeldia - [@mZubeldia_](https://twitter.com/mZubeldia_) - mzubeldia09@gmail.com
+Twitter - [@mZubeldia_](https://twitter.com/mZubeldia_) 
+
+LinkedIn - [María Zubeldia](https://www.linkedin.com/in/mzubeldia/?locale=en_US)
+
+Email - mzubeldia09@gmail.com
 
 Project Link: [https://github.com/mZubeldia/easy-delivery/projects/1](https://github.com/mZubeldia/easy-delivery/projects/1)
 

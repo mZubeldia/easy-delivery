@@ -1,4 +1,9 @@
+import { useState } from "react";
+
 const Farms = (props) => {
+
+  const [farms, setFarms] = useState([])
+
   return (
     <>
       <div className="card h-100 border-completed">
